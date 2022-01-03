@@ -49,7 +49,7 @@ search: true
 # Used as the defaults for defining what appears in the author sidebar.
 author:
   name: "Yuchen Z."
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.jpeg"
   bio: "Software Engineer" # Note: Markdown is allowed
   location: "Canada"
   links:
