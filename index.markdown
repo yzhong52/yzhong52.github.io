@@ -6,7 +6,8 @@ layout: single
 author_profile: true
 ---
 
-# Welcome
+# W
+
 Hi there. My name is Yuchen.
 I am a software engineer.
 
