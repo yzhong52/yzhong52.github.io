@@ -32,6 +32,7 @@ url: "https://yzhong52.github.io/pages"
 # Build settings
 # theme: minimal-mistakes-jekyll
 # remote_theme: minimal-mistakes-jekyll
+# https://github.com/mmistakes/minimal-mistakes#installation
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 #
