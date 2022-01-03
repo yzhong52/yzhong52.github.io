@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -18,21 +18,64 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# The name of your site. Is used throughout the theme in places like the site masthead and <title> tags.
+title: "Yuchen's Webpage"
+# A short tagline that appears below the title in site masthead.
+subtitle: "Build fast; iterate; cut lost."
+# Don't want to includ email for now
+# email: your-email@example.com
+description: "Yuchen's personal webpage."
+# https://github.com/yzhong52/yzhong52.github.io
+repository: "yzhong52/yzhong52.github.io"
+# The subpath of your site, e.g. /blog
+baseurl: ""
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yzhong52.github.io/pages"
 
-# Build settings
-theme: minima
+# https://github.com/mmistakes/minimal-mistakes#installation
+# Only the remote theme is GitHub Pages compatible, the gem-based theme is not.
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+#
+# More Site Settings
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+# https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+#
+# Other options are:
+# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark"
+# To enable site-wide search
+search: true
+# Used as the defaults for defining what appears in the author sidebar.
+author:
+  name: "Yuchen Z."
+  avatar: "/assets/images/bio-photo.jpeg"
+  bio: "Software Engineer" # Note: Markdown is allowed
+  location: "Canada"
+  links:
+    - label: "Medium"
+      icon: "fas fa-fw fa-link"
+      url: "https://yuchen52.medium.com/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yzhong52"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yzhong52"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/yzhong52/"
+
+# The most important is `jekyll-include-cache`, otherwise, github pages won't built
+# even though it works locally.
+# https://github.com/mmistakes/minimal-mistakes/issues/1875
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
