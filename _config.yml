@@ -18,33 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yuchen's Webpage
+# The name of your site. Is used throughout the theme in places like the site masthead and <title> tags.
+title: "Yuchen's Webpage"
 # A short tagline that appears below the title in site masthead.
 subtitle: "Build fast; iterate; cut lost."
-email: your-email@example.com
+# Don't want to includ email for now
+# email: your-email@example.com
 description: "Yuchen's personal webpage."
-
-# the subpath of your site, e.g. /blog
+# https://github.com/yzhong52/yzhong52.github.io
+repository: "yzhong52/yzhong52.github.io"
+# The subpath of your site, e.g. /blog
 baseurl: ""
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://yzhong52.github.io/pages"
 
-# Build settings
-# theme: minimal-mistakes-jekyll
-# remote_theme: minimal-mistakes-jekyll
 # https://github.com/mmistakes/minimal-mistakes#installation
+# Only the remote theme is GitHub Pages compatible, the gem-based theme is not.
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 #
-# Site Settings
+# More Site Settings
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 # https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 #
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-# The name of your site. Is used throughout the theme in places like the site masthead and <title> tags.
-title: "Yuchen's Webpage"
-repository: "yzhong52/pages"
-# To enable site-wide searc
+# Other options are:
+# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark"
+# To enable site-wide search
 search: true
 # Used as the defaults for defining what appears in the author sidebar.
 author:
@@ -66,6 +66,8 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yzhong52/"
 
+# The most important is `jekyll-include-cache`, otherwise, github pages won't built
+# even though it works locally.
 # https://github.com/mmistakes/minimal-mistakes/issues/1875
 plugins:
   - jekyll-paginate

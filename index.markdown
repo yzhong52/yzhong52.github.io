@@ -4,11 +4,8 @@
 
 layout: single
 author_profile: true
+title: Welcome
 ---
-
-# First
-
-## fll
 
 Hi there. My name is Yuchen.
 I am a software engineer.
@@ -25,9 +22,5 @@ I was born and raised in China and now living in Canada.
 Outside work,
 I play chess (both Chinese and international chess), badminton, table tennis.
 I go bouldering and skating occasionally. I play guitar but am still a beginner.
-After Covid, I also start to go fishing during summer.
+After Covid, I also start fishing during summers.
 Aside from those, I also write technical blogs on [Medium](https://medium.com/@yuchen52), follow me there!
-
-# Second
-
-...
