@@ -66,6 +66,14 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yzhong52/"
 
+# https://github.com/mmistakes/minimal-mistakes/issues/1875
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
