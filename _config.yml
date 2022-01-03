@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Yuchen's Webpage
+# A short tagline that appears below the title in site masthead.
+subtitle: "Build fast; iterate; cut lost."
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Yuchen's personal webpage."
+
+# the subpath of your site, e.g. /blog
+baseurl: ""
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yzhong52.github.io/pages"
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -37,55 +37,32 @@ theme: minimal-mistakes-jekyll
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 # https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 #
-minimal_mistakes_skin: "plum" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # The name of your site. Is used throughout the theme in places like the site masthead and <title> tags.
 title: "Yuchen's Webpage"
-# A short tagline that appears below the title in site masthead.
-subtitle: "Build fast; iterate; cut lost."
-# Used predominantly in meta descriptions for improving SEO.
-description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-# Site URL
-url: "https://yzhong52.github.io/pages"
-# place folder name if the site is served in a subfolder
-# baseurl: ""
 repository: "yzhong52/pages"
 # To enable site-wide searc
 search: true
 # Used as the defaults for defining what appears in the author sidebar.
 author:
-  name: "Your Name"
+  name: "Yuchen Z."
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
+  bio: "Software Engineer" # Note: Markdown is allowed
+  location: "Canada"
   links:
-    - label: "Made Mistakes"
+    - label: "Medium"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+      url: "https://yuchen52.medium.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/yzhong52"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/yzhong52"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.instagram.com/yzhong52/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
-
-
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -106,17 +83,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
