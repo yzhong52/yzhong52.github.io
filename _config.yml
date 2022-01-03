@@ -30,7 +30,7 @@ baseurl: ""
 url: "https://yzhong52.github.io/pages"
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
 
 #
 # Site Settings
