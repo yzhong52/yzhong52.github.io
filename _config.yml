@@ -77,6 +77,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -85,7 +91,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - readme.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -96,3 +103,24 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # https://mmistakes.github.io/minimal-mistakes/docs/posts/
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
