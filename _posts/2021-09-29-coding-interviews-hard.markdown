@@ -100,28 +100,6 @@ And a candidate might have thought that they did fairly very well coming up with
 
 It is much like a never-ending war; the bar for coding interviews just gets higher and higher.
 
-If candidates are sheep, then interviewers are wolves. The sheep learn to run faster and faster because they want to survive, and so are the wolves.
-
-Years ago, there weren't any interview practice materials. New grads would review their Data Structure and Algorithm textbooks to prepare for coding interviews. And we would turn to senior students who have been through some interview process to pick up some wisdom.
-
-In 2008, "[Cracking the Coding Interview: 150 Programming Interview Questions and Solutions](https://www.crackingthecodinginterview.com/)" was published. It quickly became the bible for candidates, and likely interviewers too. Soon after, interviewers learned to avoid problems from this book since they were all so well-known.
-
-Around 2016, [LeetCode](https://leetcode.com/) became a popular coding interview preparation platform. The problem set is constantly growing too, from a bit over a hundred, to a few hundred, now over two thousand!
-
-Problems are tagged on these practicing platforms too. Not only would we know which companies ask which problems, but also know when they are asked and how often. Candidates that know to use this information end up having an unfair advantage over those that do not.
-
-At this point, it is hard to imagine anyone able to land a job offer at a good tech company without practicing for interviewers rigorously.
-
-Some companies have attempted to fight this too. There is an internal document at Google called "The LeetCode Problem", discussing how to prevent people from passing the Google interview through practicing on LeetCode.
-
-Not only are the problems are getting harder and harder, but the requirement for completeness and correctness also becomes higher.
-
-In the past, it might be possible to land a job offer if a candidate can explain the approach well, and leave behind some reasonable pseudocode on the whiteboard. Now since everyone else is able to produce perfectly clean code in one go, those candidates that are making little mistakes here and there may look worse in comparison.
-
-And a candidate might have thought that they did fairly very well coming up with the optimal solution during the interview; but a few days later, only to be upset and confused getting a rejection email from the recruiter. Little the candidate knows, that interviewer still had 2--3 follow-up problems.
-
-It is much like a never-ending war; the bar for coding interviews just gets higher and higher.
-
 ## Is It Fair?
 
 One day, I was interviewing a seasoned engineer from a solid startup. He did poorly, and he knew that.
