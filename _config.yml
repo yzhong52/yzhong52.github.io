@@ -43,7 +43,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #
 # Other options are:
 # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "sunrise"
 # To enable site-wide search
 search: true
 # Used as the defaults for defining what appears in the author sidebar.

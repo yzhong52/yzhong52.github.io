@@ -13,14 +13,7 @@ tags:
 toc: true
 ---
 
-<!-- Also available at https://medium.com/p/5a8231326299 -->
-
-There are three types of technical interviews:
-
-- coding
-- system design
-- behavior
-
+There are three types of technical interviews: coding, system design, behavior. 
 The coding interview is the most essential to software engineers.
 
 For entry-level software engineers, they may face 3–5 rounds of interviews. Each round of interviews ranges from 45 minutes to 1 hour, and they are most likely all coding interviews. Sure we also mix a few behavior questions in between. But they won’t hold as much weight since the candidates wouldn’t have a whole lot of interesting stories to share anyway.
@@ -151,3 +144,7 @@ If you are a candidate, prepare for the interviews as hard as you can! Frankly s
 The world is big and pretty diverse. The discussions above are based on my very limited experience. And they might be wrong in a different context.
 
 And what's your experience? What do you enjoy and what do you find frustrating? What do think can be improved? And what do you think the whole interview process should be? I would very much love to hear from you too! Thanks for reading.
+
+---
+
+Also published at <https://medium.com/p/5a8231326299>.
