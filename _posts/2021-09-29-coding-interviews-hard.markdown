@@ -13,6 +13,8 @@ tags:
 toc: true
 ---
 
+<!-- Also available at https://medium.com/p/5a8231326299 -->
+
 There are three types of technical interviews:
 
 - coding
