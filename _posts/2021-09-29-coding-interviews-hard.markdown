@@ -116,7 +116,7 @@ And there is also [this tweet from Max Howell](https://twitter.com/mxcl/status/6
 
 > *Google: 90% of our engineers use the software you wrote (Homebrew), but you can't invert a binary tree on a whiteboard, so fuck off.*
 
-## So, is it fair?
+So, is it fair?
 
 There is no debate that it is not perfect. We sometimes may have passed on great engineers if they didn't put in the hours to prepare for the interviews. But on the other hand, we also are also fairly confident that candidates hired this way, at least, know some computer science fundamentals.
 
