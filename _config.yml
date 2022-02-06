@@ -124,3 +124,8 @@ defaults:
       comments: false
       share: true
       related: true
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: G-F2F73B78G7

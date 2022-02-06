@@ -7,9 +7,6 @@ header:
   caption: "Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/coding-puzzle)"
 categories:
   - culture
-tags:
-  - engineering
-  - titles
 toc: true
 ---
 
