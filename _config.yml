@@ -104,6 +104,12 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Collections
+collections:
+  guitar:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _pages
   - scope:
@@ -124,6 +130,18 @@ defaults:
       comments: false
       share: true
       related: true
+  # _guitar
+  - scope:
+      path: ""
+      type: guitar
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      excerpt: "" # hide excerpt by default for guitar
 
 analytics:
   provider: "google-gtag"
