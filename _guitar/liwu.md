@@ -3,7 +3,6 @@ title: "《礼物》许巍"
 classes: wide
 ---
 
-
 ```
 | D - D U - U D U | D - D U - U D U | D - D U - U D U | D - D U - U D U |
   E               | Esus4     E     | Asus2           | Asus2           
