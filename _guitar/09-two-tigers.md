@@ -1,7 +1,5 @@
 ---
 title: "《小蜜蜂》《两只老虎》"
-tag:
-  - Nursery Rhyme
 ---
 
 <figure>

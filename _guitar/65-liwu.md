@@ -2,8 +2,6 @@
 title: "礼物"
 excerpt: "许巍"
 classes: wide
-tag:
-  - 许巍
 ---
 
 ```

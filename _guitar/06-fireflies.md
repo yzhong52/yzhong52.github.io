@@ -1,8 +1,6 @@
 ---
 title: "虫儿飞"
 excerpt: "郑伊健 1998"
-tag:
-  - Nursery Rhyme
 ---
 
 ```

@@ -1,3 +1,9 @@
+- [Yuchen's Personal Website](#yuchens-personal-website)
+  - [Development](#development)
+    - [rbenv](#rbenv)
+    - [Build and Run](#build-and-run)
+  - [Known Issue](#known-issue)
+
 # Yuchen's Personal Website
 
 Power by [jekyll](https://jekyllrb.com/) and [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
@@ -48,3 +54,7 @@ Build and run site locally:
 ```
 bundle exec jekyll serve
 ```
+
+## Known Issue
+
+- [Tags categories are not support under collections](https://github.com/mmistakes/minimal-mistakes/issues/2426)
