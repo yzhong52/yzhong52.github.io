@@ -5,11 +5,8 @@ header:
   teaser: /assets/images/austin-distel-mpN7xjKQ_Ns-unsplash.jpg
   overlay_filter: 0.5
   caption: "Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
-categories:
-  - culture
 tags:
-  - engineering
-  - titles
+  - Career
 toc: true
 ---
 

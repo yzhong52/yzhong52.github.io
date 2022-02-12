@@ -11,6 +11,11 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+
+  # For tags and collections support
+  # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#archive-settings
+  # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
+  gem "jekyll-archives"
 end
 
 # There is a known issue with ruby 3.0 and jekyll

@@ -5,8 +5,8 @@ header:
   teaser: /assets/images/kelly-sikkema-CbZC2KVnK8s-unsplash.jpg
   overlay_filter: 0.5
   caption: "Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/coding-puzzle)"
-categories:
-  - culture
+tags:
+  - Career
 toc: true
 ---
 
