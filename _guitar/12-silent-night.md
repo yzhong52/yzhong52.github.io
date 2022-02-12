@@ -3,7 +3,7 @@ title: "Silent Night"
 classes: wide
 ---
 
-Beat: 3/4
+Time signature: 3/4
 
 ```
 G      -
@@ -25,7 +25,7 @@ Glories stream from heaven afar Heavenly hosts sing Hallelujah
 D          D7         G  Em  G          D          G      -
 Christ the Saviour is bo-rn, Christ the Saviour is born.
 
- 
+
 [Verse 3]
 G      -      G    -      D      D7   G           -
 Silent night, Holy night, Son of God, love's pure light

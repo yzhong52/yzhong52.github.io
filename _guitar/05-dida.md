@@ -1,5 +1,6 @@
 ---
-title: "《滴答》侃侃"
+title: "滴答"
+excerpt: "侃侃 2006 电视剧《北京爱情故事》"
 ---
 
 嘀嗒嘀嗒嘀嗒嘀嗒 时针它不停在转动  
@@ -18,10 +19,5 @@ title: "《滴答》侃侃"
 嘀嗒嘀嗒嘀嗒嘀嗒 还会有人把你牵挂  
 
 <figure class="third">
-    <a href="/assets/guitar/5-dida.jpg"><img src="/assets/guitar/5-dida.jpg"></a>
-    <figcaption>
-    <a href="https://pan.baidu.com/s/1jgmUuLnBvEa6B6lWNiCbfQ">
-        老姚的谱子 > 从零起步基础教学 > 第五课
-    </a>
-    </figcaption>
+    <a href="/assets/guitar/05-dida.jpg"><img src="/assets/guitar/05-dida.jpg"></a>
 </figure>
