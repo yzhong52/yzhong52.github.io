@@ -69,6 +69,10 @@ author:
 # The most important is `jekyll-include-cache`, otherwise, github pages won't built
 # even though it works locally.
 # https://github.com/mmistakes/minimal-mistakes/issues/1875
+#
+# List of plugins that supported by Github pages
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins
+# https://pages.github.com/versions/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -76,7 +80,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-tagories
+  # TODO: Yuchen - https://github.com/yzhong52/yzhong52.github.io/issues/2
+  # - jekyll-tagories
 
 # Reading Files
 include:

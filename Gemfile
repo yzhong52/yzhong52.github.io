@@ -19,9 +19,10 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
 
   # https://github.com/ashmaroli/jekyll-tagories
-  gem "jekyll-tagories"
+  # gem "jekyll-tagories"
 end
 
+# TODO: Yuchen - https://github.com/yzhong52/yzhong52.github.io/issues/2
 # There is a known issue with ruby 3.0 and jekyll
 # https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417
 gem "webrick", "~> 1.7"
