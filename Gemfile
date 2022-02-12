@@ -15,7 +15,11 @@ group :jekyll_plugins do
   # For tags and collections support
   # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#archive-settings
   # https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
-  gem "jekyll-archives"
+  # TODO: Yuchen - this doens't work well with tags in custom collections other than post
+  # gem "jekyll-archives"
+
+  # https://github.com/ashmaroli/jekyll-tagories
+  gem "jekyll-tagories"
 end
 
 # There is a known issue with ruby 3.0 and jekyll
