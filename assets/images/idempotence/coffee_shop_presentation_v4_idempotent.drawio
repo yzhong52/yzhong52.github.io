@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="LI38rvm5x-myEFycwopf" name="Page-1">
+        <mxGraphModel dx="1065" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="30" value="Barista" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="259.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Barista" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="249.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Cashier" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="239.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Greeter" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="229.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Cashier" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="229.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Barista" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="239.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Barista" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="229.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" source="22" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="225" y="275.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;strokeWidth=3;sketch=1;fontFamily=Lucida Console;fillColor=#d5e8d4;shadow=1;strokeColor=#82B366;" parent="1" source="3" target="12" edge="1">
+                    <mxGeometry x="-0.4521" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#82B366;fontSize=14;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="19">
+                    <mxGeometry x="-0.4521" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" parent="1" source="3" target="24" edge="1">
+                    <mxGeometry x="-0.5642" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#B85450;fontFamily=Lucida Console;" vertex="1" connectable="0" parent="25">
+                    <mxGeometry x="-0.5196" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Cashier" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="219.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" source="10" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Barista" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="219.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;sketch=1;fontFamily=Lucida Console;" parent="1" source="12" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="920" y="469.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Bulletin Board w/ Sticky Notes" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="350" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Greeter" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="219.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;" parent="1" source="33" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="131.659090909091" y="284" as="sourcePoint"/>
+                        <mxPoint x="450" y="284.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Ledger Book" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=3;fontSize=14;sketch=1;fontFamily=Lucida Console;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="467.5" y="70" width="85" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 14px;&quot;&gt;Customer&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fontFamily=Lucida Console;fontSize=14;strokeWidth=3;sketch=1;fillColor=#D2D3D3;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="218" width="45" height="63" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

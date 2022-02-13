@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="_SF6C5hbYV2lqwscpNSv" name="Page-1">
+        <mxGraphModel dx="1065" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;strokeWidth=2;fontFamily=Lucida Console;fontStyle=0;fontSize=14;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Account&lt;br style=&quot;font-size: 14px;&quot;&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fillStyle=auto;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Lucida Console;fontStyle=0;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Account&lt;br style=&quot;font-size: 14px;&quot;&gt;Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fillStyle=auto;strokeWidth=2;fontFamily=Lucida Console;fontStyle=0;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="260" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;sketch=1;fontSize=14;fontFamily=Lucida Console;" edge="1" parent="1" source="8" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Client" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;shadow=0;sketch=1;strokeWidth=2;fontSize=14;fontFamily=Lucida Console;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="268.5" width="45" height="63" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
