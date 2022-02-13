@@ -1,4 +1,8 @@
 <div class="page__footer-copyright">
-    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
-    Icon from <a href="https://icons8.com/icon/jGxSw1znSbrZ/box">https://icons8.com</a>.
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+    <img src="/favicon-16x16.png"/>
+    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+    <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
+    <a href="https://icons8.com">icons8</a>,
+    and <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 </div>
