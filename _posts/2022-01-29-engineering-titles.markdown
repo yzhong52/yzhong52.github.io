@@ -243,3 +243,5 @@ introduce titles among engineers? There are plenty of pros and cons to
 consider. Hopefully, the above can serve as some food of thought.
 
 What do you think about engineer levels and titles? As always, I would love to hear from you too.
+
+{% include published link="https://betterprogramming.pub/f271c20fae9" %}

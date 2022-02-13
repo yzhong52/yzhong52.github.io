@@ -216,3 +216,5 @@ which of the system design jargons at the beginning of the article?
 ![](https://miro.medium.com/max/1240/1*1VXIXU_SxOwzJGzzGEGdJA.png)
 
 [The answers are on GitHub](https://gist.github.com/yzhong52/6a96ab9c3b5099fa8e91c70b9b25ddb7).
+
+{% include published link="https://betterprogramming.pub/e1abb42dd123" %}
