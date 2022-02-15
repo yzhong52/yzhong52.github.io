@@ -135,6 +135,8 @@ defaults:
       comments: false
       share: true
       related: true
+      read_time: true
+      show_date: true
   # _guitar
   - scope:
       path: ""
