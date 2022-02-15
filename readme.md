@@ -2,6 +2,7 @@
   - [Development](#development)
     - [rbenv](#rbenv)
     - [Build and Run](#build-and-run)
+  - [Icons](#icons)
 
 # Yuchen's Personal Website
 
@@ -53,3 +54,7 @@ Build and run site locally:
 ```
 bundle exec jekyll serve
 ```
+
+## Icons
+
+- https://icons8.com/icon/jGxSw1znSbrZ/box

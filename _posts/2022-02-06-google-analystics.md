@@ -2,6 +2,8 @@
 title: "Add Google Analytics to minimal-mistakes Jekyll Theme"
 header:
   teaser: /assets/images/google_analytics/realtime.png
+tags:
+  - Tutorial
 toc: true
 ---
 
@@ -9,7 +11,7 @@ In this post, we'll show how to set up google analytics to track your website tr
 
 ## Step-by-step
 
-Step 1: Login to <https://analytics.google.com> to create a new Property. 
+Step 1: Login to <https://analytics.google.com> to create a new Property.
 
 ![](/assets/images/google_analytics/create_property.png)
 
@@ -31,7 +33,7 @@ analytics:
     anonymize_ip: true
 ```
 
-And that's it. 
+And that's it.
 
 ## Testing
 
@@ -41,6 +43,6 @@ The analytics block is only included when the site is running under production e
 JEKYLL_ENV=production bundle exec jekyll serve
 ```
 
-Open <https://analytics.google.com>, and we should be able see the web traffic now being tracked. 
+Open <https://analytics.google.com>, and we should be able see the web traffic now being tracked.
 
 ![](/assets/images/google_analytics/realtime.png)

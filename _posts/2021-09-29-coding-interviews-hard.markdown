@@ -10,7 +10,7 @@ tags:
 toc: true
 ---
 
-There are three types of technical interviews: coding, system design, behavior. 
+There are three types of technical interviews: coding, system design, behavior.
 The coding interview is the most essential to software engineers.
 
 For entry-level software engineers, they may face 3–5 rounds of interviews. Each round of interviews ranges from 45 minutes to 1 hour, and they are most likely all coding interviews. Sure we also mix a few behavior questions in between. But they won’t hold as much weight since the candidates wouldn’t have a whole lot of interesting stories to share anyway.
@@ -37,8 +37,8 @@ If it is too hard, then no one can pass.
 If it is too easy, then everybody can pass.
 In either case, it is hard to tell the good candidates apart from the bad.
 
-* **The problem needs to be creative.** 
-Ideally, it should be a problem that cannot be found on the internet directly. 
+* **The problem needs to be creative.**
+Ideally, it should be a problem that cannot be found on the internet directly.
 Otherwise, we’ll be hiring people that have seen the problems beforehand instead of those that are smart.
 
 * **The problem should be interesting.**
@@ -53,7 +53,7 @@ I personally spent months and went through multiple iterations before I settled 
 
 More often than not, we don’t ask new interviewers to come up with new coding problems. We sometimes try to reuse existing problems that are developed by other interviewers in the company, and sometimes use problems that we can find on the internet (either with or without modifications).
 
-Training to become an interview is like chopping down trees in a forest. It is not a trivial process. Finding a good interview problem is like finding an ax. Without that, one may never become a coding interviewer. With that, the remaining steps will still require work and practice, but it is more predictable. 
+Training to become an interview is like chopping down trees in a forest. It is not a trivial process. Finding a good interview problem is like finding an ax. Without that, one may never become a coding interviewer. With that, the remaining steps will still require work and practice, but it is more predictable.
 
 ## A Known Set of Good Problems
 
@@ -144,4 +144,4 @@ And what's your experience? What do you enjoy and what do you find frustrating? 
 
 ---
 
-Also published at <https://medium.com/p/5a8231326299>.
+{% include published link="https://betterprogramming.pub/5a8231326299" %}
