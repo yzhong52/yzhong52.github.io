@@ -24,3 +24,12 @@ I play chess (both Chinese and international chess), badminton, table tennis.
 I go bouldering and skating occasionally. I play guitar but am still a beginner.
 After Covid, I also start fishing during summers.
 Aside from those, I also write technical blogs on [Medium](https://medium.com/@yuchen52), follow me there!
+
+----
+
+* Leave TODO with name
+* Multiple small pull requests
+* Fix all warnings
+* Delete dead code
+* Work on meaningful changes
+* Ship fast and iterate

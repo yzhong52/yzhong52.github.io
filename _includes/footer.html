@@ -1,8 +1,10 @@
 <div class="page__footer-copyright">
-    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
-    <img src="/favicon-16x16.png"/>
-    {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
-    <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
-    <a href="https://icons8.com">icons8</a>,
-    and <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+    <img style="vertical-align:bottom" src="/favicon-32x32.png"/> 
+    <span>
+        &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+        {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+        <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>,
+        <a href="https://icons8.com">icons8</a>,
+        and <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+    </span>
 </div>
