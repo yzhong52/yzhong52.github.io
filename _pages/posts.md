@@ -6,3 +6,5 @@ collection: posts
 entries_layout: grid
 classes: wide
 ---
+
+[Group by tags](/tags){: .btn .btn--primary}

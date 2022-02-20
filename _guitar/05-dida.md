@@ -18,6 +18,8 @@ excerpt: "侃侃 2006 电视剧《北京爱情故事》"
 嘀嗒嘀嗒嘀嗒嘀嗒 整理好心情再出发  
 嘀嗒嘀嗒嘀嗒嘀嗒 还会有人把你牵挂  
 
-<figure class="third">
-    <a href="/assets/guitar/05-dida.jpg"><img src="/assets/guitar/05-dida.jpg"></a>
+<figure>
+  <a href="/assets/guitar/05-dida.jpg">
+    <img src="/assets/guitar/05-dida.jpg">
+  </a>
 </figure>
