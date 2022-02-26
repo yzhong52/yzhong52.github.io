@@ -31,5 +31,5 @@ Aside from those, I also write technical blogs on [Medium](https://medium.com/@y
 * Multiple small pull requests
 * Fix all warnings
 * Delete dead code
-* Work on meaningful changes
+* Work on meaningful things
 * Ship fast and iterate
