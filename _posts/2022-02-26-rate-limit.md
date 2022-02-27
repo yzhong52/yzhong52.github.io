@@ -96,9 +96,6 @@ To address that, we can use the Sliding Logs algorithm. Instead of keeping track
 
 Here is a same example of 5 requests per 5 seconds. Here is the same example of 5 requests per 5 seconds with Sliding Logs. At time 5, the logs counter reduced from 5 to 3 because the first 2 requests expired.
 
-TODO: There is a bug here. At time 5, we should allow 2 requests?
-{: .notice--warning}
-
 ![](/assets/images/rate_limit/SlidingLogScene.gif)
 
 Compared to the Fixed Window Counter, one drawback of this approach is that it requires more memory. If the requests rate is very high, then it may not make sense to use this approach.
@@ -165,16 +162,8 @@ Instead of storing the data in the application server, we could also store the i
 
 However, there is also trade off using external store.
 
-- We introduce another point of failure. What if we have connection issue with the external storage? Should we block or allow requests in these situation.
-- It can have more latency implications. Network call is usually slower than accessing local memory. On top of that, having multiple servers accessing the same counters, we need to spend more time handling locks for race conditions.
-
-## Other Discussions
-
-All the above discussions are client-aware, meaning that the algorithm has to be able to identify the clients via either User Id, IP Address, API Keys, etc. However, if we don’t have this requirement, we simply want to prevent servers from overloading, then this is more formally known as [load shedding](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/).
-
-Load shedding is particularly useful when having special events that trigger high traffic such as the new year, super bowl, etc. and we simply won’t have enough physical machines to handle those requests. In this case, it is better to drop some requests and still be able to serve part of the customers.
-
-The most well-known algorithm is the Leaky Bucket. In a nutshell, we determine the optimal amount of requests our server can handle and only accept up to that amount. The rest of the requests are dropped as the bucket is full.
+- We introduce another point of failure. What if we have connection issue with the external storage? Should we block or allow requests in these situation？
+- It can have more latency implications. Network call is slower than accessing local memory. On top of that, having multiple servers accessing the same counters, we need to spend more time handling race conditions.
 
 ## The End
 
