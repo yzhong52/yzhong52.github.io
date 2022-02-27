@@ -9,8 +9,6 @@ excerpt: "What is Rate Limiting and How to Use it Properly"
 toc: true
 ---
 
-## Introduction & Background
-
 After launching your web service, how do you protect it from overloading? This article will discuss options to protect your services with a common technique called rate limiting.
 
 There are many different reasons why we want to block requests at times. To name a few:
@@ -23,8 +21,8 @@ Regardless of the reasons, in this post, we will look into how we can implement 
 We will cover three topics:
 
 1. What do we use to we identify the clients;
-2. Some must-known basic rate-limiting algorithms;
-3. How do we scale up with more than one application servers.
+2. Some must-known rate-limiting algorithms;
+3. Scale up with more than one application servers.
 
 ## Rate Limiting Target
 
@@ -62,7 +60,7 @@ Obviously, this can only be meaningful if the system requires a login. For examp
 
 For critical services, we can assign an API key to each customer. It is also common to assign a different access rate to each API key, for example, 300 requests per day.
 
-Compared to User IDs, using the API key imposes more frictions on the users. Therefore, it also only makes sense to certain applications. These applications usually access more valuable data or services, and they usually come with a price tag. Here are a few examples:
+Compared to User IDs, using the API keys imposes more frictions on the users. Therefore, it also only makes sense to certain applications. These applications usually access more valuable data or services, and they usually come with a price tag. Here are a few examples:
 
 - [Mapbox API](https://docs.mapbox.com/help/glossary/access-token/) for maps and navigation
 - [Tinyurl](https://tinyurl.com/app/dev) for URL shortening
@@ -94,7 +92,7 @@ Not hard to see, the above Fixed Window Counter algorithm is not very accurate. 
 
 To address that, we can use the Sliding Logs algorithm. Instead of keeping track of the counter, we keep track of a list of timestamps of the requests.
 
-Here is a same example of 5 requests per 5 seconds. Here is the same example of 5 requests per 5 seconds with Sliding Logs. At time 5, the logs counter reduced from 5 to 3 because the first 2 requests expired.
+Here is the same example of 5 requests per 5 seconds again. At time 5, the logs counter reduced from 5 to 3 because the first 2 requests have expired.
 
 ![](/assets/images/rate_limit/SlidingLogScene.gif)
 
@@ -120,7 +118,7 @@ Token Bucket algorithm is similar to the Fixed Window Counter algorithm above, i
 
 For each client, we create a bucket with tokens. Every time there is a request, we reduce the token by one. We block the request when there are no more tokens left in the bucket for the given client. In the meantime, the tokens are refilled at some predefined rate.
 
-Here is an example of a bucket being refilled with 2 tokens every 2 seconds. The size of the bucket is 5. Interestingly, the effective rate of this configuration is the same as the other two animations above for Fixed Window Counter and Sliding Log. They are all at 1 QPS (query per second).
+Here is an example of a bucket being refilled with 2 tokens every 2 seconds. The size of the bucket is 5. Interestingly, the effective rate of this configuration is the same as the other two animations above for Fixed Window Counter and Sliding Log. They are all at 1 QPS.
 
 ![](/assets/images/rate_limit/FixWindowScene.gif)
 
@@ -130,7 +128,7 @@ So far, the bucket is never full (with 5 tokens). That’s because we have consi
 
 Overall, Token Buckets algorithm is more flexible. It also doesn’t have the per-defined window and thus it can spread out requests spikes from multiple clients better.
 
-On the other hand, since it requires more writes to the counters (or tokens), it is more expensive computationally.
+On the other hand, since it requires more writes to update the tokens count, it is more expensive computationally.
 
 Token Buckets algorithm is widely use in the industry. For example, [DynamoDB use token bucket for rate limiting read capacity unit (RCU)](https://www.youtube.com/watch?v=yvBR71D0nAQ).
 
@@ -149,7 +147,9 @@ For more information about sticky sections, the following AWS documentation expl
 
 Here is an example. If we have a client making 1000 requests, and we have 100 servers. With round robin, each server would get roughly 100 requests. With sticky session, all 1000 requests from this client would get routed to the same server.
 
-With Round Robin, one approach is to divide the limit by the number of servers. Now, this won’t give us deterministic results since a request can be blocked by one server, accept by the next server. However, it is a very good approximation and we can still keep the implementation simple. Alternatively, if we indeed want to keep the counters in sync, we can consider using some distributed message queue, leader & follower architecture, gossip protocol, etc.
+With Round Robin, one approach is to divide the limit by the number of servers. For example, if we want to rate limit the client at 1000 QPS and we have 10 servers, each server will rate limit the client at 100 QPS independently. Now, this won't give us deterministic results since a request can be blocked by one server, accept by the next server. However, it is a very good approximation and we can still keep the implementation simple.
+
+Alternatively, if we indeed want to keep the counters in sync, we can consider using some distributed message queue, leader & follower architecture, [gossip protocol](https://en.wikipedia.org/wiki/Gossip_protocol), etc.
 
 With Sticky Session, it is simpler. We can continue to store the counters in the application server since each server ideally is handling requests from a subset of clients.
 
@@ -169,4 +169,4 @@ However, there is also trade off using external store.
 
 That’s it for today. Thanks for reading and hope that it helps. Do you have to implement rate-limiting in your web servers too? What approach did you use? As always, I would love to hear from you too!
 
-Want to play more with the different types of rate limiters? The source code of the animation above is published on [Github](https://github.com/yzhong52/RateLimitingAnimations). Feel free to change the configurations and play with them more.
+Want to play more with the different types of rate limiting algorithm? The source code of the simulation above is published on [Github](https://github.com/yzhong52/RateLimitingAnimations). Feel free to change the configurations and play with them more.
