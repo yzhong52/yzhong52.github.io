@@ -120,7 +120,7 @@ For each client, we create a bucket with tokens. Every time there is a request, 
 
 Here is an example of a bucket being refilled with 2 tokens every 2 seconds. The size of the bucket is 5. Interestingly, the effective rate of this configuration is the same as the other two animations above for Fixed Window Counter and Sliding Log. They are all at 1 [QPS (queries per second)](https://en.wikipedia.org/wiki/Queries_per_second).
 
-![](/assets/images/rate_limit/FixWindowScene.gif)
+![](/assets/images/rate_limit/TokenBucketScene.gif)
 
 So far, the bucket is never full (with 5 tokens). That's because we have consistently high request rates. Imagine if the server stops receiving requests for a while, the bucket will eventually get filled up. The size of the bucket essentially controls how spiky we allow the traffic to be.
 
