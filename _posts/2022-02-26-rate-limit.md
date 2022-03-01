@@ -120,7 +120,7 @@ Here
 indicates that it is blocked. At time 5, we reset the counter to 0 as it
  enters a new time window.
 
-![https://miro.medium.com/max/700/1*vTa9l_mXHhswXoznM0Bkww.gif](https://miro.medium.com/max/700/1*vTa9l_mXHhswXoznM0Bkww.gif)
+![](/assets/images/rate_limit/FixWindowScene.gif)
 
 ### Sliding Logs
 
@@ -144,7 +144,7 @@ Here
 logs counter reduced from 5 to 3 because the first 2 requests have 
 expired.
 
-![https://miro.medium.com/max/700/1*a8WTBB1FeITLtuWrxbEhVw.gif](https://miro.medium.com/max/700/1*a8WTBB1FeITLtuWrxbEhVw.gif)
+![](/assets/images/rate_limit/SlidingLogScene.gif)
 
 Compared
  to the Fixed Window Counter, one drawback of this approach is that it 
@@ -195,7 +195,7 @@ Here
 configuration is the same as the other two animations above for Fixed 
 Window Counter and Sliding Log. They are all at 1 QPS ([queries per second](https://en.wikipedia.org/wiki/Queries_per_second)).
 
-![https://miro.medium.com/max/700/1*jn50lYX_fLxjX_DPFgnlsA.gif](https://miro.medium.com/max/700/1*jn50lYX_fLxjX_DPFgnlsA.gif)
+![](/assets/images/rate_limit/TokenBucketScene.gif)
 
 So
  far, the bucket is never full (with 5 tokens). That’s because we have 
@@ -204,7 +204,7 @@ requests for a while, the bucket will eventually get filled up. The size
  of the bucket essentially controls how spiky we allow the traffic to 
 be.
 
-![https://miro.medium.com/max/700/1*2XEryfw_0BtA3bjoY67k0g.gif](https://miro.medium.com/max/700/1*2XEryfw_0BtA3bjoY67k0g.gif)
+![](/assets/images/rate_limit/TokenBucketSceneProlonged.gif)
 
 Overall,
  Token Buckets algorithm is more flexible. It also doesn’t have the 
