@@ -2,10 +2,10 @@
 title: "Why System Design Are So Hard?"
 excerpt: "And how should you deal with it?"
 header:
-  overlay_image: /assets/images/kelly-sikkema-CbZC2KVnK8s-unsplash.jpg
-  teaser: /assets/images/kelly-sikkema-CbZC2KVnK8s-unsplash.jpg
+  overlay_image: /assets/images/denys-nevozhai-_QoAuZGAoPY-unsplash.jpg
+  teaser: /assets/images/denys-nevozhai-_QoAuZGAoPY-unsplash.jpg
   overlay_filter: 0.5
-  caption: "Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/coding-puzzle)"
+  caption: "Photo by [Denys Nevozhai](https://unsplash.com/photos/_QoAuZGAoPY) on [Unsplash](https://unsplash.com)"
 tags:
   - Career
   - Distributed Systems
