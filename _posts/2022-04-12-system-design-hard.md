@@ -131,3 +131,5 @@ By tackling all these hypothetical scalability issues, chances are, by the time 
 One of the beauties of system design is that there are no limits. There are new theories being proposed over time, new algorithms being developed, and better solutions being implemented. Let’s be open-minded. Stay hungry. And keep learning!
 
 That’s it for today. Thanks for reading! I am hoping to complete this series by writing one piece for behavior problems too. But that’s for another day.
+
+{% include published link="https://betterprogramming.pub/47a7473a5d9c" %}
