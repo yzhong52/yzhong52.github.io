@@ -51,7 +51,7 @@ That’s what system design is mostly about — using a lot of the higher-le
 System design problems are almost always presented as some product or product feature. Here are some examples:
 
 - When interviewing for Robinhood, you may get asked about how to design a trading system.
-- When interviewing for Airbnb, you may get asked about how to design a hotel booking system.
+- When interviewing for Hopper, you may get asked about how to design a hotel booking system.
 - When interviewing for Amazon, you may get asked about how to design an online marketplace.
 - When interviewing for Netflix, you may get asked about how to video recommendation system.
 - When interviewing for Facebook, you may get asked about how to design a chat application.
@@ -116,7 +116,7 @@ System design is never about getting the optimal solution. It is about understan
 
 ## What’s Next
 
-In coding interviews, you may spend months preparing for it and still fail interviews left and right. Then you might start questioning the meaning of life. Why am I doing this? What values do I bring to the society by practicing over and over again how to [trap rainwater with hypothetical cubs](https://leetcode.com/problems/trapping-rain-water/)? Why am I not using this time learning new technologies that I can use in my work or I can use to launch a new startup?
+In coding interviews, you may spend months preparing for it and still fail interviews left and right. Then you might start questioning the meaning of life. Why am I doing this? What values do I bring to the society by practicing over and over again how to [trap rainwater with hypothetical bars](https://leetcode.com/problems/trapping-rain-water/) (a well known problem on LeetCode)? Why am I not using this time learning new technologies that I can use in my work or I can use to launch a new startup?
 
 System design interviews are different.
 
