@@ -1,5 +1,5 @@
 ---
-title: "Why System Design Are So Hard?"
+title: "Why System Design Is So Hard?"
 excerpt: "And how should you deal with it?"
 header:
   overlay_image: /assets/images/denys-nevozhai-_QoAuZGAoPY-unsplash.jpg
