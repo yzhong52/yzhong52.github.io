@@ -3,7 +3,7 @@ title: "虫儿飞"
 excerpt: "郑伊健 1998"
 ---
 
-```
+<pre>
 黑黑的天空低垂
 亮亮的繁星相随
 虫儿飞
@@ -22,7 +22,7 @@ excerpt: "郑伊健 1998"
 只怕心碎
 不管累不累
 也不管东南西北
-```
+</pre>
 
 <figure>
     <a href="/assets/guitar/06-fireflies.jpg">

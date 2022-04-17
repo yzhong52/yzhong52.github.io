@@ -1,2 +1,2 @@
 This article is also available at <{{ include.link }}>.
-{: .notice--warning}
+{: .notice--info}
