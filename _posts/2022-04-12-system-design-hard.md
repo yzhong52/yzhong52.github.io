@@ -76,7 +76,6 @@ The world is not only complex, but also constantly evolving. Even if you are a s
 It is common that the problem statement is vague to begin with. For example,
 
 > Interviewer: “How do you design a deployment system?”
-> 
 
 Scenario 1:
 
