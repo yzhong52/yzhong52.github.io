@@ -43,14 +43,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #
 # Other options are:
 # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "sunrise"
+minimal_mistakes_skin: "air"
 # To enable site-wide search
 search: true
 # Used as the defaults for defining what appears in the author sidebar.
 author:
   name: "Yuchen Z."
   avatar: "/assets/images/bio-photo.jpeg"
-  bio: "Software Engineer at Meta & Hopper"
+  bio: "Software Engineer @ Meta & Hopper"
   location: "Canada"
   links:
     - label: "Medium"
