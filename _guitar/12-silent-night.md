@@ -5,7 +5,7 @@ classes: wide
 
 Time signature: 3/4
 
-```
+<pre>
 G      -
 
 [Verse 1]
@@ -33,4 +33,4 @@ C       -          G        -     C        -          G       -
 Radiant beams from thy holy face, With the dawn of re-deeming grace
 D     D7          G  Em   G     D           G        -
 Jesus lord at thy bi-rth, Jesus lord at thy birth.
-```
+</pre>

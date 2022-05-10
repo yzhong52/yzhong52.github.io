@@ -4,7 +4,7 @@ excerpt: "许巍 2005"
 classes: wide
 ---
 
-```
+<pre style="letter-spacing: -1px;">
 | D - D U - U D U | D - D U - U D U | D - D U - U D U | D - D U - U D U |
   E               | Esus4     E     | Asus2           | Asus2
 
@@ -54,7 +54,7 @@ classes: wide
   分  享
 | D - D U - U D U | D - D U - U D U | D - D U - U D U | D - - - - - - - |
   E               | Esus4     E     | Asus2           |
-```
+</pre>
 
 <figure class="third">
     <a href="/assets/guitar/65-liwu1.jpg">
