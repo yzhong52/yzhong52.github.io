@@ -48,7 +48,7 @@ Install bundle packages:
 bundle install
 ```
 
-Build and run site locally:
+Build and run the site locally:
 
 ```
 bundle exec jekyll serve
