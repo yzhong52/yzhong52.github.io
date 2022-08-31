@@ -4,7 +4,7 @@ excerpt: "许巍 2005"
 classes: wide
 ---
 
-<pre style="letter-spacing: -1px;">
+<pre STYLE="font-family: monospace; font-size: 14px;">
 | D - D U - U D U | D - D U - U D U | D - D U - U D U | D - D U - U D U |
   E               | Esus4     E     | Asus2           | Asus2
 
