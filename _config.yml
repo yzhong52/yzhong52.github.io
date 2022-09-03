@@ -109,12 +109,6 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Collections
-collections:
-  guitar:
-    output: true
-    permalink: /:collection/:path/
-
 defaults:
   # _pages
   - scope:
