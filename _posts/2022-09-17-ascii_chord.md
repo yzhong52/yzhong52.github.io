@@ -281,4 +281,4 @@ That, my friend, is how we build a CLI in Rust.
 
 Have you forget how to play a chord? Now we have a better tool:) Thanks for reading! As usual, source code in Github:
 
-https://github.com/yzhong52/ascii_chords
+https://github.com/yzhong52/ascii_chord/tree/blog-post-checkpoint
