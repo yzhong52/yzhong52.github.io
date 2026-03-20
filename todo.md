@@ -1,110 +1,110 @@
-# Rewrite Plan: Jekyll → Next.js + TypeScript + React
+# Rewrite Plan: Jekyll → Astro + TypeScript + React
 
 ## Overview
 
-Migrate the Jekyll/Minimal Mistakes blog at `yzhong52.github.io` to a Next.js app with TypeScript and React.
-Keep all existing Markdown content (`_posts/`) and assets (`assets/`). Deploy via GitHub Pages using static export.
+Migrate `yzhong52.github.io` (blog) and `yzhong52.github.io/guitar/` (separate repo) into a single
+Astro app with TypeScript. Interactive components (search, TOC) use React islands. Deploy via GitHub
+Pages static export from this repo, deprecating the separate guitar repo.
 
 ---
 
 ## Phase 1: Project Setup
 
-- [ ] Bootstrap a new Next.js app with TypeScript: `npx create-next-app@latest . --typescript --tailwind --app`
-- [ ] Add markdown processing dependencies: `gray-matter` (frontmatter), `remark`, `remark-html`, `remark-gfm`
-- [ ] Add `reading-time` for estimated read time
-- [ ] Configure `next.config.ts` for static export (`output: 'export'`) and GitHub Pages base path
-- [ ] Update `.gitignore` for Node artifacts (`node_modules/`, `.next/`, `out/`)
-- [ ] Keep existing `_posts/` and `assets/` directories in place (no content migration needed)
+- [ ] Bootstrap: `npm create astro@latest . -- --template minimal --typescript strict`
+- [ ] Add integrations:
+  - `npx astro add react` — for interactive island components
+  - `npx astro add tailwind` — styling
+  - `npx astro add sitemap` — auto-generated sitemap
+- [ ] Add packages: `reading-time`, `fuse.js`
+- [ ] Configure `astro.config.mjs`:
+  - `output: 'static'`
+  - `site: 'https://yzhong52.github.io'`
+  - Include `sitemap()` and `react()` integrations
+- [ ] Update `.gitignore` for `node_modules/`, `dist/`
 
 ---
 
-## Phase 2: Content Layer
+## Phase 2: Content Collections
 
-- [ ] Write a `lib/posts.ts` utility to:
-  - Read and parse all markdown files in `_posts/` with `gray-matter`
-  - Extract frontmatter: `title`, `excerpt`, `date`, `tags`, `header.overlay_image`, `header.teaser`
-  - Compute `slug` from filename (e.g. `2022-11-26-behavior-questions`)
-  - Compute reading time using `reading-time`
-  - Convert markdown body to HTML with `remark`
-- [ ] Define a `Post` TypeScript type/interface covering all frontmatter fields
-- [ ] Write a `lib/tags.ts` utility to group posts by tag
+- [ ] Define both collections in `src/content/config.ts` with Zod schemas:
+  - `blog` — points to `_posts/`, schema covers `title`, `excerpt`, `date`, `tags`, `header.overlay_image`, `header.teaser`, `header.caption`
+  - `guitar` — migrate content from the guitar repo, schema covers its frontmatter
+- [ ] Move `_posts/` markdown files to `src/content/blog/`
+- [ ] Pull guitar markdown files from the separate repo into `src/content/guitar/`
+- [ ] Keep `assets/` images in `public/assets/` (Astro serves `public/` at root)
+- [ ] Verify all frontmatter in both collections passes Zod validation; fix any schema mismatches
 
 ---
 
 ## Phase 3: Layout & Components
 
-### Shell
-- [ ] `components/Layout.tsx` — wraps all pages; includes `Header`, `Footer`, optional `AuthorSidebar`
-- [ ] `components/Header.tsx` — site title "The Post Station", subtitle, top nav (Posts / Guitar / About)
-- [ ] `components/Footer.tsx` — copyright line matching current footer (Jekyll → Next.js attribution)
+### Astro Components (static, no JS)
+- [ ] `src/layouts/Base.astro` — HTML shell, `<head>` with meta/OG tags, GA script
+- [ ] `src/layouts/PostLayout.astro` — two-column: main content + sticky sidebar; wraps Base
+- [ ] `src/components/Header.astro` — site title "The Post Station", subtitle, top nav (Posts / Guitar / About)
+- [ ] `src/components/Footer.astro` — copyright line
+- [ ] `src/components/AuthorSidebar.astro` — avatar, name, bio, location, social links
+- [ ] `src/components/PostCard.astro` — teaser image, title, excerpt, date, tags, read time; used in grids
+- [ ] `src/components/TagBadge.astro` — tag pill linking to `/tags#tag-name`
+- [ ] `src/components/RelatedPosts.astro` — posts sharing at least one tag
 
-### Author Sidebar
-- [ ] `components/AuthorSidebar.tsx` — avatar, name "Yuchen Z.", bio, location, social links (Medium, Twitter, GitHub, Instagram)
-
-### Post Cards (grid view)
-- [ ] `components/PostCard.tsx` — teaser image, title, excerpt, date, tags, read time; used on Posts and home page
-
-### Post Detail
-- [ ] `components/PostHeader.tsx` — overlay hero image with caption and filter
-- [ ] `components/TableOfContents.tsx` — sticky TOC generated from post headings (replace Jekyll `toc: true`)
-- [ ] `components/RelatedPosts.tsx` — show posts sharing at least one tag
-
-### Tags
-- [ ] `components/TagBadge.tsx` — inline tag pill linking to `/tags#tag-name`
+### React Islands (interactive)
+- [ ] `src/components/Search.tsx` — client-side full-text search with `fuse.js`; load with `client:load`
+- [ ] `src/components/TableOfContents.tsx` — sticky TOC with scroll-spy from post headings; `client:load`
 
 ---
 
 ## Phase 4: Pages
 
-- [ ] `app/page.tsx` — home page (mirrors Jekyll `layout: home`; list of recent posts)
-- [ ] `app/posts/page.tsx` — posts grid (`entries_layout: grid`), "Group by tags" button
-- [ ] `app/posts/[slug]/page.tsx` — individual post page with TOC, related posts, author sidebar; use `generateStaticParams` for all slugs
-- [ ] `app/tags/page.tsx` — all tags with post counts and grouped post lists
-- [ ] `app/about/page.tsx` — static About page (port content from `_pages/about.md`)
-- [ ] `app/guitar/page.tsx` — placeholder Guitar page (port when guitar posts are added)
-- [ ] `app/not-found.tsx` — 404 page
+- [ ] `src/pages/index.astro` — home: recent posts list
+- [ ] `src/pages/posts/index.astro` — posts grid with "Group by tags" link
+- [ ] `src/pages/posts/[slug].astro` — post detail; use `getStaticPaths` + `getEntry`; render with `<Content />`
+- [ ] `src/pages/guitar/index.astro` — guitar posts grid
+- [ ] `src/pages/guitar/[slug].astro` — individual guitar post
+- [ ] `src/pages/tags/index.astro` — all tags with post counts and grouped lists
+- [ ] `src/pages/about.astro` — static About page
+- [ ] `src/pages/404.astro` — custom 404 page
+- [ ] `src/pages/rss.xml.ts` — RSS feed via `@astrojs/rss`
 
 ---
 
-## Phase 5: Styling & Theme
+## Phase 5: Styling
 
-- [ ] Configure Tailwind with a custom color palette matching the "air" Minimal Mistakes skin (light blues/grays)
-- [ ] Style typography for markdown post bodies (use `@tailwindcss/typography` plugin with `prose` classes)
-- [ ] Implement responsive layout: sidebar collapses on mobile, single-column; two-column on desktop
-- [ ] Style the posts grid: card hover effects, teaser image aspect ratio
-- [ ] Add sticky TOC sidebar behavior with scroll-spy (highlight active heading)
+- [ ] Configure Tailwind with a color palette matching the "air" skin (light blues/grays)
+- [ ] Add `@tailwindcss/typography` and apply `prose` classes to post body content
+- [ ] Responsive layout: single-column on mobile, two-column (content + sidebar) on desktop
+- [ ] Post grid: card hover effects, consistent teaser image aspect ratio
+- [ ] Sticky TOC: `position: sticky` + scroll-spy highlight via the React island
 
 ---
 
 ## Phase 6: Features
 
-- [ ] **Search** — add client-side full-text search with `fuse.js` (replaces Jekyll search plugin)
-- [ ] **Google Analytics** — add `gtag` via Next.js `Script` component (`tracking_id: G-F2F73B78G7`)
-- [ ] **Reading time** — display on post pages and cards
-- [ ] **Show date** — format and display post date
-- [ ] **Tags** — clickable tags on post pages linking to `/tags#tag-name`
-- [ ] **Related posts** — show 3–4 posts sharing tags at the bottom of each post
-- [ ] **Share buttons** — Twitter/X and copy-link share actions
-- [ ] **Sitemap** — generate via `next-sitemap` package
-- [ ] **RSS feed** — generate `feed.xml` at build time
+- [ ] **Google Analytics** — add `gtag` in `Base.astro` using Astro's `<Script>` (`tracking_id: G-F2F73B78G7`)
+- [ ] **Reading time** — compute with `reading-time` in `getStaticPaths`, pass as prop to layout
+- [ ] **Open Graph / meta tags** — per-post `<title>`, `description`, `og:image` (teaser) in `Base.astro`
+- [ ] **Share buttons** — Twitter/X and copy-link, small React island or plain anchor tags
+- [ ] **Sitemap** — auto-generated by `@astrojs/sitemap` on build
 
 ---
 
-## Phase 7: GitHub Pages Deployment
+## Phase 7: GitHub Actions Deployment
 
-- [ ] Update (or replace) `.github/workflows/` to build the Next.js static export and deploy `out/` to GitHub Pages
-- [ ] Set `basePath` and `assetPrefix` in `next.config.ts` if needed for the `yzhong52.github.io` root domain
-- [ ] Add `out/.nojekyll` file to prevent GitHub Pages from running Jekyll on the output
-- [ ] Verify all internal links and image paths resolve correctly in the exported output
-- [ ] Remove `Gemfile`, `Gemfile.lock`, and `_config.yml` once the new site is live
+- [ ] Replace existing GitHub Pages workflow (or add new one) to:
+  1. `npm ci`
+  2. `npm run build` (outputs to `dist/`)
+  3. Deploy `dist/` to GitHub Pages via `actions/deploy-pages`
+- [ ] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
+- [ ] Verify all URLs match the old Jekyll site (no broken inbound links)
+- [ ] Archive or redirect the separate guitar repo once the new `/guitar/` route is live
 
 ---
 
-## Phase 8: QA & Polish
+## Phase 8: Cleanup & QA
 
-- [ ] Check all existing post slugs produce the same URLs as the Jekyll site (no broken links)
-- [ ] Verify all images in `assets/images/` render correctly
-- [ ] Test responsive layout on mobile, tablet, desktop
-- [ ] Run `next build` and inspect `out/` for any missing pages or assets
-- [ ] Validate HTML and check Lighthouse score (performance, accessibility, SEO)
-- [ ] Add `<meta>` OG tags (title, description, teaser image) per post for social sharing
+- [ ] Remove `Gemfile`, `Gemfile.lock`, `_config.yml`, `_data/`, `_includes/`, `_pages/`
+- [ ] Remove old `_posts/` and `_guitar/` source directories (content now lives in `src/content/`)
+- [ ] Test all post slugs resolve correctly
+- [ ] Verify all images in `public/assets/` render
+- [ ] Run Lighthouse: target 95+ on Performance, Accessibility, SEO (Astro's zero-JS default helps a lot here)
+- [ ] Check RSS feed and sitemap are reachable at `/rss.xml` and `/sitemap-index.xml`
