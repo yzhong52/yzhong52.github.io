@@ -1,0 +1,40 @@
+---
+import PostLayout from '../../layouts/PostLayout.astro';
+import RelatedPosts from '../../components/RelatedPosts.astro';
+import { getCollection, render } from 'astro:content';
+import readingTime from 'reading-time';
+import { dateFromSlug } from '../../lib/utils';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const allPosts = await getCollection('blog');
+const { Content } = await render(post);
+
+const date = post.data.date ?? dateFromSlug(post.id);
+const readTime = readingTime(post.body ?? '').text;
+const header = post.data.header;
+---
+
+<PostLayout
+  title={post.data.title}
+  description={post.data.excerpt}
+  ogImage={header?.teaser ?? header?.overlay_image}
+  date={date}
+  readTime={readTime}
+  tags={post.data.tags}
+  overlayImage={header?.overlay_image ?? header?.image}
+  overlayFilter={header?.overlay_filter}
+  caption={header?.caption}
+  showToc={post.data.toc}
+>
+  <Content />
+  <RelatedPosts
+    currentId={post.id}
+    currentTags={post.data.tags}
+    allPosts={allPosts}
+  />
+</PostLayout>

@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+import readingTime from 'reading-time';
+import { dateFromSlug } from '../../lib/utils';
+
+const posts = (await getCollection('blog'))
+  .map((post) => ({
+    ...post,
+    date: post.data.date ?? dateFromSlug(post.id),
+    readTime: readingTime(post.body ?? '').text,
+  }))
+  .sort((a, b) => b.date.getTime() - a.date.getTime());
+---
+
+<Base title="Posts" description="All posts on The Post Station.">
+  <main class="max-w-5xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-slate-800">Posts</h1>
+      <a href="/tags/" class="text-sm px-3 py-1.5 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors">
+        Group by tags
+      </a>
+    </div>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => (
+        <PostCard
+          title={post.data.title}
+          slug={post.id}
+          excerpt={post.data.excerpt}
+          teaser={post.data.header?.teaser}
+          tags={post.data.tags}
+          date={post.date}
+          readTime={post.readTime}
+          collection="blog"
+        />
+      ))}
+    </div>
+  </main>
+</Base>

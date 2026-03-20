@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+import readingTime from 'reading-time';
+
+const songs = (await getCollection('guitar'))
+  .map((post) => ({
+    ...post,
+    readTime: readingTime(post.body ?? '').text,
+  }))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+
+<Base title="Guitar" description="Guitar chords and songs.">
+  <main class="max-w-5xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold text-slate-800 mb-6">Guitar</h1>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {songs.map((post) => (
+        <PostCard
+          title={post.data.title}
+          slug={post.id}
+          excerpt={post.data.excerpt}
+          tags={post.data.tags}
+          date={new Date()}
+          readTime={post.readTime}
+          collection="guitar"
+        />
+      ))}
+    </div>
+  </main>
+</Base>

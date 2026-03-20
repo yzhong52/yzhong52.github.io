@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import AuthorSidebar from '../components/AuthorSidebar.astro';
+---
+
+<Base title="About" description="About Yuchen Z.">
+  <div class="max-w-5xl mx-auto px-4 py-10">
+    <div class="flex flex-col lg:flex-row gap-10">
+      <article class="min-w-0 flex-1 prose prose-slate max-w-none">
+        <h1>Welcome</h1>
+        <p>
+          Hi there. My name is Yuchen. I am a software engineer.
+        </p>
+        <p>
+          I am currently working on the infrastructure team at Meta, where I build capacity
+          management tooling. I worked on both physical capacity management (similar to AWS EC2) and
+          virtual capacity management (such as Async, Manifold, etc.). Both are NP-hard problems at
+          the core that require a lot of thought and care.
+        </p>
+        <p>
+          Previously, I worked at Hopper building a product for selling flights, hotels, and various
+          ancillaries. We use Scala, Kafka, HBase, Spanner, Airflow, etc. I also spent a big chunk
+          of my time building mobile apps. Check out our app on{' '}
+          <a href="https://apps.apple.com/ca/app/hopper-flights-hotels-cars/id904052407">iOS</a> or{' '}
+          <a href="https://play.google.com/store/apps/details?id=com.hopper.mountainview.play&hl=en_CA&gl=US">Android</a>!
+        </p>
+        <p>
+          I was born and raised in China and now living in Canada. Outside work, I play chess (both
+          Chinese and international chess), badminton, table tennis. I go bouldering and skating
+          occasionally. I play guitar but am still a beginner. After Covid, I also start fishing
+          during summers. Aside from those, I also write technical blogs on{' '}
+          <a href="https://medium.com/@yuchen52">Medium</a>, follow me there!
+        </p>
+        <hr />
+        <ul>
+          <li>Leave TODO with name</li>
+          <li>Multiple small pull requests</li>
+          <li>Fix all warnings</li>
+          <li>Delete dead code</li>
+          <li>Work on meaningful things</li>
+          <li>Ship fast and iterate</li>
+        </ul>
+      </article>
+
+      <aside class="lg:w-64 shrink-0">
+        <AuthorSidebar />
+      </aside>
+    </div>
+  </div>
+</Base>

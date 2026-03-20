@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { dateFromSlug, formatDate } from '../../lib/utils';
+
+const posts = (await getCollection('blog'))
+  .map((post) => ({
+    ...post,
+    date: post.data.date ?? dateFromSlug(post.id),
+  }))
+  .sort((a, b) => b.date.getTime() - a.date.getTime());
+
+// Build tag → posts map
+const tagMap = new Map<string, typeof posts>();
+for (const post of posts) {
+  for (const tag of post.data.tags) {
+    if (!tagMap.has(tag)) tagMap.set(tag, []);
+    tagMap.get(tag)!.push(post);
+  }
+}
+
+const sortedTags = [...tagMap.keys()].sort();
+---
+
+<Base title="Tags" description="Posts grouped by tag.">
+  <main class="max-w-3xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-slate-800">Tags</h1>
+      <a href="/posts/" class="text-sm px-3 py-1.5 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors">
+        All posts
+      </a>
+    </div>
+
+    <!-- Tag index -->
+    <div class="flex flex-wrap gap-2 mb-10">
+      {sortedTags.map((tag) => (
+        <a
+          href={`#${tag.toLowerCase().replace(/\s+/g, '-')}`}
+          class="px-3 py-1 text-sm bg-slate-100 text-slate-600 rounded-full hover:bg-primary hover:text-white transition-colors"
+        >
+          {tag} <span class="text-xs opacity-70">({tagMap.get(tag)!.length})</span>
+        </a>
+      ))}
+    </div>
+
+    <!-- Posts grouped by tag -->
+    {sortedTags.map((tag) => (
+      <section
+        id={tag.toLowerCase().replace(/\s+/g, '-')}
+        class="mb-10 scroll-mt-6"
+      >
+        <h2 class="text-lg font-semibold text-slate-800 border-b border-slate-200 pb-2 mb-4">
+          {tag}
+        </h2>
+        <ul class="space-y-3">
+          {tagMap.get(tag)!.map((post) => (
+            <li class="flex items-start justify-between gap-4">
+              <a
+                href={`/posts/${post.id}/`}
+                class="text-slate-700 hover:text-primary transition-colors"
+              >
+                {post.data.title}
+              </a>
+              <span class="text-xs text-slate-400 shrink-0 pt-0.5">
+                {formatDate(post.date)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+</Base>
