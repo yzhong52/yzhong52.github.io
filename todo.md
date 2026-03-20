@@ -42,13 +42,13 @@ merging to `main`.
 
 ## Phase 2: Content Collections
 
-- [ ] Define both collections in `src/content/config.ts` with Zod schemas:
+- [x] Define both collections in `src/content.config.ts` with Zod schemas:
   - `blog` — schema covers `title`, `excerpt`, `date`, `tags`, `header.overlay_image`, `header.teaser`, `header.caption`
   - `guitar` — migrate content from the guitar repo, schema covers its frontmatter
-- [ ] Move `_posts/` markdown files to `src/content/blog/`
-- [ ] Pull guitar markdown files from the separate repo into `src/content/guitar/`
-- [ ] Keep `assets/` images in `public/assets/` (Astro serves `public/` at root)
-- [ ] Verify all frontmatter in both collections passes Zod validation: `npm run build` will error on any mismatch
+- [x] Move `_posts/` markdown files to `src/content/blog/`
+- [x] Pull guitar markdown files from the separate repo into `src/content/guitar/`
+- [x] Keep `assets/` images in `public/assets/` (Astro serves `public/` at root)
+- [x] Verify all frontmatter in both collections passes Zod validation: `npm run build` will error on any mismatch
 - [ ] Validate on Netlify preview: push branch, confirm build passes in Netlify dashboard
 
 ---
