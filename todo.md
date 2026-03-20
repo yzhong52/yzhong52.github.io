@@ -49,7 +49,7 @@ merging to `main`.
 - [x] Pull guitar markdown files from the separate repo into `src/content/guitar/`
 - [x] Keep `assets/` images in `public/assets/` (Astro serves `public/` at root)
 - [x] Verify all frontmatter in both collections passes Zod validation: `npm run build` will error on any mismatch
-- [ ] Validate on Netlify preview: push branch, confirm build passes in Netlify dashboard
+- [x] Validate on Netlify preview: push branch, confirm build passes in Netlify dashboard
 
 ---
 
