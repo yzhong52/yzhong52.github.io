@@ -73,15 +73,15 @@ merging to `main`.
 
 ## Phase 4: Pages
 
-- [ ] `src/pages/index.astro` — home: recent posts list
-- [ ] `src/pages/posts/index.astro` — posts grid with "Group by tags" link
-- [ ] `src/pages/posts/[slug].astro` — post detail; use `getStaticPaths` + `getEntry`; render with `<Content />`
-- [ ] `src/pages/guitar/index.astro` — guitar posts grid
-- [ ] `src/pages/guitar/[slug].astro` — individual guitar post
-- [ ] `src/pages/tags/index.astro` — all tags with post counts and grouped lists
-- [ ] `src/pages/about.astro` — static About page
-- [ ] `src/pages/404.astro` — custom 404 page
-- [ ] `src/pages/rss.xml.ts` — RSS feed via `@astrojs/rss`
+- [x] `src/pages/index.astro` — home: recent posts list
+- [x] `src/pages/posts/index.astro` — posts grid with "Group by tags" link
+- [x] `src/pages/posts/[slug].astro` — post detail; use `getStaticPaths` + `getEntry`; render with `<Content />`
+- [x] `src/pages/guitar/index.astro` — guitar posts grid
+- [x] `src/pages/guitar/[slug].astro` — individual guitar post
+- [x] `src/pages/tags/index.astro` — all tags with post counts and grouped lists
+- [x] `src/pages/about.astro` — static About page
+- [x] `src/pages/404.astro` — custom 404 page
+- [x] `src/pages/rss.xml.ts` — RSS feed via `@astrojs/rss`
 
 ---
 
