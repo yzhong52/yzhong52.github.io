@@ -6,6 +6,21 @@ Migrate `yzhong52.github.io` (blog) and `yzhong52.github.io/guitar/` (separate r
 Astro app with TypeScript. Interactive components (search, TOC) use React islands. Deploy via GitHub
 Pages static export from this repo, deprecating the separate guitar repo.
 
+All work happens on a `astro-rewrite` branch. The live site on `main` is untouched until cutover.
+Netlify is used for branch preview deployments so the new site can be validated at a real URL before
+merging to `main`.
+
+---
+
+## Phase 0: Branch & Preview Setup
+
+- [ ] Create and switch to the working branch: `git checkout -b astro-rewrite`
+- [ ] Connect the repo to Netlify (free tier):
+  - Import the repo at netlify.com
+  - Set build command: `npm run build`, publish directory: `dist`
+  - Netlify will auto-deploy every push to `astro-rewrite` and post a unique preview URL
+- [ ] Push the branch so Netlify picks it up: `git push -u origin astro-rewrite`
+
 ---
 
 ## Phase 1: Project Setup
@@ -21,18 +36,20 @@ Pages static export from this repo, deprecating the separate guitar repo.
   - `site: 'https://yzhong52.github.io'`
   - Include `sitemap()` and `react()` integrations
 - [ ] Update `.gitignore` for `node_modules/`, `dist/`
+- [ ] Validate locally: `npm run dev` — Astro dev server should start at `localhost:4321`
 
 ---
 
 ## Phase 2: Content Collections
 
 - [ ] Define both collections in `src/content/config.ts` with Zod schemas:
-  - `blog` — points to `_posts/`, schema covers `title`, `excerpt`, `date`, `tags`, `header.overlay_image`, `header.teaser`, `header.caption`
+  - `blog` — schema covers `title`, `excerpt`, `date`, `tags`, `header.overlay_image`, `header.teaser`, `header.caption`
   - `guitar` — migrate content from the guitar repo, schema covers its frontmatter
 - [ ] Move `_posts/` markdown files to `src/content/blog/`
 - [ ] Pull guitar markdown files from the separate repo into `src/content/guitar/`
 - [ ] Keep `assets/` images in `public/assets/` (Astro serves `public/` at root)
-- [ ] Verify all frontmatter in both collections passes Zod validation; fix any schema mismatches
+- [ ] Verify all frontmatter in both collections passes Zod validation: `npm run build` will error on any mismatch
+- [ ] Validate on Netlify preview: push branch, confirm build passes in Netlify dashboard
 
 ---
 
@@ -88,23 +105,36 @@ Pages static export from this repo, deprecating the separate guitar repo.
 
 ---
 
-## Phase 7: GitHub Actions Deployment
+## Phase 7: Validation (before cutover)
 
-- [ ] Replace existing GitHub Pages workflow (or add new one) to:
-  1. `npm ci`
-  2. `npm run build` (outputs to `dist/`)
-  3. Deploy `dist/` to GitHub Pages via `actions/deploy-pages`
-- [ ] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
-- [ ] Verify all URLs match the old Jekyll site (no broken inbound links)
-- [ ] Archive or redirect the separate guitar repo once the new `/guitar/` route is live
+Goal: confirm the Netlify preview is a complete, correct replacement for the live site.
+
+- [ ] Visually compare each page on the Netlify preview URL against the live Jekyll site
+- [ ] Spot-check every post slug: `/posts/2022-11-26-behavior-questions` etc. all resolve
+- [ ] Check all images render (teaser, header overlays, inline post images)
+- [ ] Verify `/guitar/` and all guitar post slugs work
+- [ ] Test search, TOC scroll-spy, and related posts
+- [ ] Check RSS feed at `/rss.xml` and sitemap at `/sitemap-index.xml`
+- [ ] Run Lighthouse on the Netlify preview: target 95+ Performance, Accessibility, SEO
+- [ ] Validate OG meta tags with the [Twitter Card Validator](https://cards-dev.twitter.com/validator) or [opengraph.xyz](https://www.opengraph.xyz)
 
 ---
 
-## Phase 8: Cleanup & QA
+## Phase 8: Cutover (merge to main)
+
+- [ ] Add GitHub Actions workflow to build Astro and deploy `dist/` to GitHub Pages:
+  1. `npm ci`
+  2. `npm run build`
+  3. Deploy via `actions/deploy-pages`
+- [ ] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
+- [ ] Merge `astro-rewrite` → `main`; the new workflow replaces the Jekyll pipeline
+- [ ] Confirm `https://yzhong52.github.io` serves the Astro build within a few minutes
+- [ ] Archive or add a redirect notice to the separate guitar repo
+
+---
+
+## Phase 9: Cleanup
 
 - [ ] Remove `Gemfile`, `Gemfile.lock`, `_config.yml`, `_data/`, `_includes/`, `_pages/`
-- [ ] Remove old `_posts/` and `_guitar/` source directories (content now lives in `src/content/`)
-- [ ] Test all post slugs resolve correctly
-- [ ] Verify all images in `public/assets/` render
-- [ ] Run Lighthouse: target 95+ on Performance, Accessibility, SEO (Astro's zero-JS default helps a lot here)
-- [ ] Check RSS feed and sitemap are reachable at `/rss.xml` and `/sitemap-index.xml`
+- [ ] Remove `_posts/` (content now lives in `src/content/blog/`)
+- [ ] Disconnect the Netlify site (or keep it for future branch previews)
