@@ -56,18 +56,18 @@ merging to `main`.
 ## Phase 3: Layout & Components
 
 ### Astro Components (static, no JS)
-- [ ] `src/layouts/Base.astro` — HTML shell, `<head>` with meta/OG tags, GA script
-- [ ] `src/layouts/PostLayout.astro` — two-column: main content + sticky sidebar; wraps Base
-- [ ] `src/components/Header.astro` — site title "The Post Station", subtitle, top nav (Posts / Guitar / About)
-- [ ] `src/components/Footer.astro` — copyright line
-- [ ] `src/components/AuthorSidebar.astro` — avatar, name, bio, location, social links
-- [ ] `src/components/PostCard.astro` — teaser image, title, excerpt, date, tags, read time; used in grids
-- [ ] `src/components/TagBadge.astro` — tag pill linking to `/tags#tag-name`
-- [ ] `src/components/RelatedPosts.astro` — posts sharing at least one tag
+- [x] `src/layouts/Base.astro` — HTML shell, `<head>` with meta/OG tags, GA script
+- [x] `src/layouts/PostLayout.astro` — two-column: main content + sticky sidebar; wraps Base
+- [x] `src/components/Header.astro` — site title "The Post Station", subtitle, top nav (Posts / Guitar / About)
+- [x] `src/components/Footer.astro` — copyright line
+- [x] `src/components/AuthorSidebar.astro` — avatar, name, bio, location, social links
+- [x] `src/components/PostCard.astro` — teaser image, title, excerpt, date, tags, read time; used in grids
+- [x] `src/components/TagBadge.astro` — tag pill linking to `/tags#tag-name`
+- [x] `src/components/RelatedPosts.astro` — posts sharing at least one tag
 
 ### React Islands (interactive)
-- [ ] `src/components/Search.tsx` — client-side full-text search with `fuse.js`; load with `client:load`
-- [ ] `src/components/TableOfContents.tsx` — sticky TOC with scroll-spy from post headings; `client:load`
+- [x] `src/components/Search.tsx` — client-side full-text search with `fuse.js`; load with `client:load`
+- [x] `src/components/TableOfContents.tsx` — sticky TOC with scroll-spy from post headings; `client:load`
 
 ---
 
