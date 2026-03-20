@@ -1,0 +1,48 @@
+---
+import TagBadge from './TagBadge.astro';
+import { formatDate } from '../lib/utils';
+
+interface Props {
+  title: string;
+  slug: string;
+  excerpt?: string;
+  teaser?: string;
+  tags: string[];
+  date: Date;
+  readTime: string;
+  collection: 'blog' | 'guitar';
+}
+
+const { title, slug, excerpt, teaser, tags, date, readTime, collection } = Astro.props;
+const href = `/${collection}/${slug}/`;
+---
+
+<article class="flex flex-col border border-slate-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
+  {teaser && (
+    <a href={href}>
+      <img
+        src={teaser}
+        alt={title}
+        class="w-full h-44 object-cover"
+      />
+    </a>
+  )}
+  <div class="flex flex-col flex-1 p-4 gap-2">
+    <a href={href} class="group">
+      <h2 class="font-semibold text-slate-800 group-hover:text-primary transition-colors leading-snug">
+        {title}
+      </h2>
+    </a>
+    {excerpt && (
+      <p class="text-sm text-slate-500 line-clamp-3 flex-1">{excerpt}</p>
+    )}
+    <div class="flex flex-wrap gap-1 mt-auto pt-2">
+      {tags.map((tag) => <TagBadge tag={tag} />)}
+    </div>
+    <div class="text-xs text-slate-400 flex gap-2">
+      <span>{formatDate(date)}</span>
+      <span>&middot;</span>
+      <span>{readTime}</span>
+    </div>
+  </div>
+</article>

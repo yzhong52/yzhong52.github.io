@@ -1,0 +1,36 @@
+---
+const links = [
+  { label: 'Medium', href: 'https://yuchen52.medium.com/', icon: '✍️' },
+  { label: 'GitHub', href: 'https://github.com/yzhong52', icon: '💻' },
+  { label: 'Twitter', href: 'https://twitter.com/yzhong52', icon: '🐦' },
+  { label: 'Instagram', href: 'https://www.instagram.com/yzhong52/', icon: '📷' },
+];
+---
+
+<aside class="w-full">
+  <div class="flex flex-col items-center text-center gap-3 p-4 border border-slate-200 rounded-lg">
+    <img
+      src="/assets/images/bio-photo.jpeg"
+      alt="Yuchen Z."
+      class="w-24 h-24 rounded-full object-cover"
+    />
+    <div>
+      <div class="font-semibold text-slate-800">Yuchen Z.</div>
+      <div class="text-sm text-slate-500 mt-0.5">Software Engineer @ Meta &amp; Hopper</div>
+      <div class="text-sm text-slate-500">📍 Canada</div>
+    </div>
+    <div class="flex flex-col gap-1.5 w-full text-left">
+      {links.map(({ label, href, icon }) => (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-2 text-sm text-slate-600 hover:text-primary transition-colors"
+        >
+          <span>{icon}</span>
+          <span>{label}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</aside>

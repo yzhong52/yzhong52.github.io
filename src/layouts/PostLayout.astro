@@ -1,0 +1,81 @@
+---
+import Base from './Base.astro';
+import AuthorSidebar from '../components/AuthorSidebar.astro';
+import TableOfContents from '../components/TableOfContents';
+import TagBadge from '../components/TagBadge.astro';
+import { formatDate } from '../lib/utils';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  date: Date;
+  readTime: string;
+  tags: string[];
+  overlayImage?: string;
+  overlayFilter?: number;
+  caption?: string;
+  showToc?: boolean;
+}
+
+const {
+  title,
+  description,
+  ogImage,
+  date,
+  readTime,
+  tags,
+  overlayImage,
+  overlayFilter = 0.5,
+  caption,
+  showToc = true,
+} = Astro.props;
+---
+
+<Base title={title} description={description} ogImage={ogImage}>
+  {overlayImage && (
+    <div class="relative w-full h-64 md:h-80 overflow-hidden">
+      <img src={overlayImage} alt={title} class="w-full h-full object-cover" />
+      <div
+        class="absolute inset-0"
+        style={`background: rgba(0,0,0,${overlayFilter})`}
+      />
+      <div class="absolute inset-0 flex items-end">
+        <div class="max-w-5xl mx-auto px-4 pb-6 w-full">
+          <h1 class="text-2xl md:text-3xl font-bold text-white leading-tight">{title}</h1>
+          {caption && (
+            <p class="text-xs text-white/70 mt-1" set:html={caption} />
+          )}
+        </div>
+      </div>
+    </div>
+  )}
+
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    {!overlayImage && (
+      <h1 class="text-2xl md:text-3xl font-bold text-slate-800 mb-4">{title}</h1>
+    )}
+
+    <div class="flex flex-wrap gap-1 mb-2">
+      {tags.map((tag) => <TagBadge tag={tag} />)}
+    </div>
+    <div class="text-sm text-slate-400 mb-8">
+      {formatDate(date)} &middot; {readTime}
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-10">
+      <article class="min-w-0 flex-1 prose prose-slate max-w-none prose-a:text-primary prose-headings:scroll-mt-6">
+        <slot />
+      </article>
+
+      <aside class="lg:w-64 shrink-0 space-y-8">
+        <AuthorSidebar />
+        {showToc && (
+          <div class="sticky top-6">
+            <TableOfContents client:load />
+          </div>
+        )}
+      </aside>
+    </div>
+  </div>
+</Base>

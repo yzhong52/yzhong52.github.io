@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #0092ca;
+  --color-primary-dark: #006e9a;
+  --font-family-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-family-mono: ui-monospace, monospace;
+}
+
+body {
+  @apply text-slate-700 bg-white;
+}

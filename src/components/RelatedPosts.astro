@@ -1,0 +1,42 @@
+---
+import PostCard from './PostCard.astro';
+import readingTime from 'reading-time';
+import { dateFromSlug } from '../lib/utils';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  currentId: string;
+  currentTags: string[];
+  allPosts: CollectionEntry<'blog'>[];
+}
+
+const { currentId, currentTags, allPosts } = Astro.props;
+
+const related = allPosts
+  .filter(
+    (p) =>
+      p.id !== currentId &&
+      p.data.tags.some((t) => currentTags.includes(t))
+  )
+  .slice(0, 3);
+---
+
+{related.length > 0 && (
+  <section class="mt-12">
+    <h2 class="text-lg font-semibold text-slate-800 mb-4">You May Also Enjoy</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {related.map((post) => (
+        <PostCard
+          title={post.data.title}
+          slug={post.id}
+          excerpt={post.data.excerpt}
+          teaser={post.data.header?.teaser}
+          tags={post.data.tags}
+          date={post.data.date ?? dateFromSlug(post.id)}
+          readTime={readingTime(post.body ?? '').text}
+          collection="blog"
+        />
+      ))}
+    </div>
+  </section>
+)}
