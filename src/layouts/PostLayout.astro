@@ -3,6 +3,7 @@ import Base from './Base.astro';
 import AuthorSidebar from '../components/AuthorSidebar.astro';
 import TableOfContents from '../components/TableOfContents';
 import TagBadge from '../components/TagBadge.astro';
+import ShareButtons from '../components/ShareButtons.astro';
 import { formatDate } from '../lib/utils';
 
 interface Props {
@@ -66,6 +67,7 @@ const {
     <div class="flex flex-col lg:flex-row gap-10">
       <article class="min-w-0 flex-1 prose prose-slate max-w-none prose-a:text-primary prose-headings:scroll-mt-6">
         <slot />
+        <ShareButtons title={title} url={new URL(Astro.url.pathname, Astro.site).href} />
       </article>
 
       <aside class="lg:w-64 shrink-0 space-y-8">

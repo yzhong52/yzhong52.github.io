@@ -11,3 +11,40 @@
 body {
   @apply text-slate-700 bg-white;
 }
+
+/* Consistent teaser image aspect ratio in post cards */
+.post-card-img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Prose: code blocks */
+.prose pre {
+  @apply text-sm leading-relaxed;
+}
+
+.prose code:not(pre code) {
+  @apply bg-slate-100 text-slate-800 px-1 py-0.5 rounded text-sm;
+  font-weight: normal;
+}
+
+.prose code:not(pre code)::before,
+.prose code:not(pre code)::after {
+  content: none;
+}
+
+/* Prose: images */
+.prose img {
+  @apply rounded shadow-sm mx-auto;
+}
+
+/* Prose: blockquote */
+.prose blockquote {
+  @apply border-l-4 border-primary/40 bg-slate-50 not-italic;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
