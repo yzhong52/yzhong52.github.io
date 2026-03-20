@@ -8,3 +8,4 @@ vendor/
 node_modules
 dist/
 .astro/
+.claude/

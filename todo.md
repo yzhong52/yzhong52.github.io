@@ -14,28 +14,28 @@ merging to `main`.
 
 ## Phase 0: Branch & Preview Setup
 
-- [ ] Create and switch to the working branch: `git checkout -b astro-rewrite`
-- [ ] Connect the repo to Netlify (free tier):
+- [x] Create and switch to the working branch: `git checkout -b astro-rewrite`
+- [x] Connect the repo to Netlify (free tier):
   - Import the repo at netlify.com
   - Set build command: `npm run build`, publish directory: `dist`
   - Netlify will auto-deploy every push to `astro-rewrite` and post a unique preview URL
-- [ ] Push the branch so Netlify picks it up: `git push -u origin astro-rewrite`
+- [x] Push the branch so Netlify picks it up: `git push -u origin astro-rewrite`
 
 ---
 
 ## Phase 1: Project Setup
 
-- [ ] Bootstrap: `npm create astro@latest . -- --template minimal --typescript strict`
-- [ ] Add integrations:
+- [x] Bootstrap: `npm create astro@latest . -- --template minimal --typescript strict`
+- [x] Add integrations:
   - `npx astro add react` — for interactive island components
   - `npx astro add tailwind` — styling
   - `npx astro add sitemap` — auto-generated sitemap
-- [ ] Add packages: `reading-time`, `fuse.js`
-- [ ] Configure `astro.config.mjs`:
+- [x] Add packages: `reading-time`, `fuse.js`
+- [x] Configure `astro.config.mjs`:
   - `output: 'static'`
   - `site: 'https://yzhong52.github.io'`
   - Include `sitemap()` and `react()` integrations
-- [ ] Update `.gitignore` for `node_modules/`, `dist/`
+- [x] Update `.gitignore` for `node_modules/`, `dist/`
 - [ ] Validate locally: `npm run dev` — Astro dev server should start at `localhost:4321`
 
 ---
