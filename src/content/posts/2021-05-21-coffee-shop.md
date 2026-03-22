@@ -4,7 +4,7 @@ excerpt: "A starting point to design a large-scale distributed system"
 header:
   image: https://miro.medium.com/max/1273/1*p6WLZLcUkkHLumITrxMdqw.jpeg
   teaser: https://miro.medium.com/max/1273/1*p6WLZLcUkkHLumITrxMdqw.jpeg
-  caption: Photo by [The Creative Exchange](https://unsplash.com/photos/d1ngW7SNehM) on [Unsplash](https://unsplash.com/)
+  caption: 'Photo by <a href="https://unsplash.com/photos/d1ngW7SNehM" target="_blank" rel="noopener noreferrer">The Creative Exchange</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 tags:
   - Distributed Systems
 toc: true

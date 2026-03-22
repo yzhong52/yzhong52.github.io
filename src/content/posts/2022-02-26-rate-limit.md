@@ -3,7 +3,7 @@ title: Building A Safe Multi-Tenant System With Rate Limiting
 header:
   overlay_image: /assets/images/mael-balland-Ft-PrGvzXZ4-unsplash.jpg
   teaser: /assets/images/mael-balland-Ft-PrGvzXZ4-unsplash.jpg
-  caption: Photo by [Mael BALLAND](https://unsplash.com/@mael_balland) on [Unsplash](https://unsplash.com/)
+  caption: 'Photo by <a href="https://unsplash.com/@mael_balland" target="_blank" rel="noopener noreferrer">Mael BALLAND</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>'
   overlay_filter: 0.5
 excerpt: "What is rate-limiting and how to use it properly"
 toc: true

@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/images/austin-distel-mpN7xjKQ_Ns-unsplash.jpg
   teaser: /assets/images/austin-distel-mpN7xjKQ_Ns-unsplash.jpg
   overlay_filter: 0.5
-  caption: "Photo by [Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  caption: 'Photo by <a href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Austin Distel</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 tags:
   - Career
 toc: true

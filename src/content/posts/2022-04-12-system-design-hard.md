@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/images/denys-nevozhai-_QoAuZGAoPY-unsplash.jpg
   teaser: /assets/images/denys-nevozhai-_QoAuZGAoPY-unsplash.jpg
   overlay_filter: 0.5
-  caption: "Photo by [Denys Nevozhai](https://unsplash.com/photos/_QoAuZGAoPY) on [Unsplash](https://unsplash.com)"
+  caption: 'Photo by <a href="https://unsplash.com/photos/_QoAuZGAoPY" target="_blank" rel="noopener noreferrer">Denys Nevozhai</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 tags:
   - Career
   - Distributed Systems

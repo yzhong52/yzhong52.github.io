@@ -44,6 +44,11 @@ body {
   @apply border-l-4 border-primary/40 bg-slate-50 not-italic;
 }
 
+/* Hero caption links */
+.hero-caption a {
+  @apply text-white/90 underline hover:text-white;
+}
+
 /* Smooth scroll for anchor links */
 html {
   scroll-behavior: smooth;

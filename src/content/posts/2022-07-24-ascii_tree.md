@@ -3,7 +3,7 @@ title: Do you want to draw a tree in plain text?
 header:
     overlay_image: /assets/images/adarsh-kummur-zThTy8rPPsY-unsplash.jpg
     teaser: /assets/images/adarsh-kummur-zThTy8rPPsY-unsplash.jpg
-    caption: Photo by [Adarsh Kummur](https://unsplash.com/photos/zThTy8rPPsY) on [Unsplash](https://unsplash.com/)
+    caption: 'Photo by <a href="https://unsplash.com/photos/zThTy8rPPsY" target="_blank" rel="noopener noreferrer">Adarsh Kummur</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>'
     overlay_filter: 0.5
 toc: false
 ---
@@ -36,4 +36,3 @@ $ ascii_tree --input tree.md
 ```
 
 Source code in GitHub <https://github.com/yzhong52/ascii_tree>. All built in Rust. I would love some feedback and contributions are welcome too!
-

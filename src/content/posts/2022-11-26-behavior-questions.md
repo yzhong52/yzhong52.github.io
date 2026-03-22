@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/images/kelly-sikkema-CbZC2KVnK8s-unsplash.jpg
   teaser: /assets/images/kelly-sikkema-CbZC2KVnK8s-unsplash.jpg
   overlay_filter: 0.5
-  caption: "Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema) on [Unsplash](https://unsplash.com/s/photos/coding-puzzle)"
+  caption: 'Photo by <a href="https://unsplash.com/@kellysikkema" target="_blank" rel="noopener noreferrer">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/coding-puzzle" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 tags:
   - Career
 toc: true

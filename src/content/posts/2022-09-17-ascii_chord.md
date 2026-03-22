@@ -3,7 +3,7 @@ title: Building a Command Line Tool (CLI) with Rust
 header:
     overlay_image: /assets/images/guitar_on_file.jpeg
     teaser: /assets/images/guitar_on_file.jpeg
-    caption: Photo by [Dark Rider](https://unsplash.com/@darkrider?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText))
+    caption: 'Photo by <a href="https://unsplash.com/@darkrider?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Dark Rider</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer">Unsplash</a>'
     overlay_filter: 0.5
 excerpt: A step by step guide to print your guitar chords
 toc: true

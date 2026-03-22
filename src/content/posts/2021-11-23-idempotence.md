@@ -5,7 +5,7 @@ header:
   overlay_image: /assets/images/bundo-kim-S-TcfjrYVKo-unsplash.jpg
   teaser: /assets/images/bundo-kim-S-TcfjrYVKo-unsplash.jpg
   overlay_filter: 0.5
-  caption: "Photo by [Bundo Kim](https://unsplash.com/@bundo) on [Unsplash](https://unsplash.com)"
+  caption: 'Photo by <a href="https://unsplash.com/@bundo" target="_blank" rel="noopener noreferrer">Bundo Kim</a> on <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>'
 tags:
   - Distributed Systems
 toc: true
