@@ -18,6 +18,11 @@ const related = allPosts
       p.id !== currentId &&
       p.data.tags.some((t) => currentTags.includes(t))
   )
+  .sort((a, b) => {
+    const aDate = a.data.date ?? dateFromSlug(a.id);
+    const bDate = b.data.date ?? dateFromSlug(b.id);
+    return bDate.getTime() - aDate.getTime();
+  })
   .slice(0, 3);
 ---
 
