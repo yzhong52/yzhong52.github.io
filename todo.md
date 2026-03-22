@@ -115,26 +115,26 @@ Goal: confirm the Netlify preview is a complete, correct replacement for the liv
 - [x] Verify `/guitar/` and all guitar post slugs work
 - [x] Test search, TOC scroll-spy, and related posts
 - [x] Check RSS feed at `/rss.xml` and sitemap at `/sitemap-index.xml`
-- [ ] Run Lighthouse on the Netlify preview: target 95+ Performance, Accessibility, SEO
-- [ ] Validate OG meta tags with the [Twitter Card Validator](https://cards-dev.twitter.com/validator) or [opengraph.xyz](https://www.opengraph.xyz)
+- [x] Run Lighthouse on the Netlify preview: target 95+ Performance, Accessibility, SEO
+- [x] Validate OG meta tags with the [Twitter Card Validator](https://cards-dev.twitter.com/validator) or [opengraph.xyz](https://www.opengraph.xyz)
 
 ---
 
 ## Phase 8: Cutover (merge to main)
 
-- [ ] Add GitHub Actions workflow to build Astro and deploy `dist/` to GitHub Pages:
+- [x] Add GitHub Actions workflow to build Astro and deploy `dist/` to GitHub Pages:
   1. `npm ci`
   2. `npm run build`
   3. Deploy via `actions/deploy-pages`
-- [ ] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
-- [ ] Merge `astro-rewrite` → `main`; the new workflow replaces the Jekyll pipeline
-- [ ] Confirm `https://yzhong52.github.io` serves the Astro build within a few minutes
+- [x] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
+- [x] Merge `astro-rewrite` → `main`; the new workflow replaces the Jekyll pipeline
+- [x] Confirm `https://yzhong52.github.io` serves the Astro build within a few minutes
 - [ ] Archive or add a redirect notice to the separate guitar repo
 
 ---
 
 ## Phase 9: Cleanup
 
-- [ ] Remove `Gemfile`, `Gemfile.lock`, `_config.yml`, `_data/`, `_includes/`, `_pages/`
-- [ ] Remove `_posts/` (content now lives in `src/content/blog/`)
+- [x] Remove `Gemfile`, `Gemfile.lock`, `_config.yml`, `_data/`, `_includes/`, `_pages/`
+- [x] Remove `_posts/` (content now lives in `src/content/posts/`)
 - [ ] Disconnect the Netlify site (or keep it for future branch previews)
