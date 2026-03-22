@@ -15,8 +15,8 @@ The sounds of the flute fades away
 </pre>
 
 <figure>
-    <a href="/guitar/assets/chord/13-farewell.jpg">
-        <img src="/guitar/assets/chord/13-farewell.jpg">
+    <a href="/assets/guitar/chord/13-farewell.jpg">
+        <img src="/assets/guitar/chord/13-farewell.jpg">
     </a>
 </figure>
 

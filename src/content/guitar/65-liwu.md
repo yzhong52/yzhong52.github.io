@@ -71,14 +71,14 @@ Em             Esus4          Asus2          Fm
 </pre>
 
 <figure class="third">
-    <a href="/guitar/assets/chord/65-liwu1.jpg">
-        <img src="/guitar/assets/chord/65-liwu1.jpg">
+    <a href="/assets/guitar/chord/65-liwu1.jpg">
+        <img src="/assets/guitar/chord/65-liwu1.jpg">
     </a>
-    <a href="/guitar/assets/chord/65-liwu2.jpg">
-        <img src="/guitar/assets/chord/65-liwu2.jpg">
+    <a href="/assets/guitar/chord/65-liwu2.jpg">
+        <img src="/assets/guitar/chord/65-liwu2.jpg">
     </a>
-    <a href="/guitar/assets/chord/65-liwu3.jpg">
-        <img src="/guitar/assets/chord/65-liwu3.jpg">
+    <a href="/assets/guitar/chord/65-liwu3.jpg">
+        <img src="/assets/guitar/chord/65-liwu3.jpg">
     </a>
 </figure>
 

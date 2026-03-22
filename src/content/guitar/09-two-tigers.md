@@ -23,7 +23,7 @@ title: "《小蜜蜂》《两只老虎》"
 </pre>
 
 <figure>
-  <a href="/guitar/assets/chord/09-two-tigers.jpg">
-    <img src="/guitar/assets/chord/09-two-tigers.jpg">
+  <a href="/assets/guitar/chord/09-two-tigers.jpg">
+    <img src="/assets/guitar/chord/09-two-tigers.jpg">
   </a>
 </figure>
