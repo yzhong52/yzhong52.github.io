@@ -129,7 +129,7 @@ Goal: confirm the Netlify preview is a complete, correct replacement for the liv
 - [x] Add `public/.nojekyll` to prevent GitHub Pages from running Jekyll on the output
 - [x] Merge `astro-rewrite` → `main`; the new workflow replaces the Jekyll pipeline
 - [x] Confirm `https://yzhong52.github.io` serves the Astro build within a few minutes
-- [ ] Archive or add a redirect notice to the separate guitar repo
+- [x] Archive or add a redirect notice to the separate guitar repo
 
 ---
 
