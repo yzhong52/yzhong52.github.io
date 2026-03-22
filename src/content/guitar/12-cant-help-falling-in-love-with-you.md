@@ -12,7 +12,7 @@ classes: wide
   * 632123: G, Em, F
   * 432123: F(alt.), Dm
 
-{%include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              Em             Am             F              
 x     ◯   ◯    ◯     ◯ ◯ ◯    x ◯       ◯                   
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    
@@ -36,7 +36,7 @@ G              B7             A7             Dm
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘   
-{%include chord-end %}
+</pre>
 
 <pre STYLE="font-family: Ariel, monospace;">
 <em>[Intro] - picking</em>
@@ -80,4 +80,4 @@ For I can't help falling in love with you
 For I can't help falling in love with you
 </pre>
 
-{% include video id="ZmKlh5MZCa4" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZmKlh5MZCa4" frameborder="0" allowfullscreen></iframe></div>

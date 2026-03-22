@@ -7,7 +7,7 @@ classes: wide
 * Capo: 2 fret
 * Strumming pattern: Down down up, Up down up
 
-{%include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 G              Em             C              D              
     ◯ ◯ ◯      ◯     ◯ ◯ ◯    x     ◯   ◯    x x ◯          
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    
@@ -19,7 +19,7 @@ G              Em             C              D
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘  
-{%include chord-end %}
+</pre>
 
 <pre style="font-family: Lucida Console; letter-spacing: -1.4px;">
 [Intro]
@@ -70,4 +70,4 @@ C             D             G           G
 stand by me,     stand by        me.
 </pre>
 
-{% include video id="_8r9JEM548I" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/_8r9JEM548I" frameborder="0" allowfullscreen></iframe></div>

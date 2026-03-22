@@ -7,7 +7,7 @@ tags:
   - C-G-Am-F
 ---
 
-{%include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              G              Am             F          
 x     ◯   ◯        ◯ ◯ ◯      x ◯       ◯               
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
@@ -19,7 +19,7 @@ x     ◯   ◯        ◯ ◯ ◯      x ◯       ◯
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
-{%include chord-end %}
+</pre>
 
 <pre style="font-family: Lucida Console; letter-spacing: -1.4px;">
 [Verse 1]
@@ -126,4 +126,4 @@ F
 This time for Africa
 </pre>
 
-{% include video id="pRpeEdMmmQ0" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0" allowfullscreen></iframe></div>

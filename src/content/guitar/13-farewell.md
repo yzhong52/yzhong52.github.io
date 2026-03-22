@@ -20,4 +20,4 @@ The sounds of the flute fades away
     </a>
 </figure>
 
-{% include video id="SknPcwgnEt0" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/SknPcwgnEt0" frameborder="0" allowfullscreen></iframe></div>

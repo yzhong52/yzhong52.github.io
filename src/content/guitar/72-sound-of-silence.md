@@ -13,7 +13,7 @@ classes: wide
   - F: 4132 (x2) or 6132 (x2)
   - C: 5132 (x2)
 
-{%include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 Asus2          G              Am             F              C              
 x ◯     ◯ ◯        ◯ ◯ ◯      x ◯       ◯                   x     ◯   ◯    
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    
@@ -25,7 +25,7 @@ x ◯     ◯ ◯        ◯ ◯ ◯      x ◯       ◯                   x   
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘ 
-{%include chord-end %}
+</pre>
 
 <pre style="font-family: Ariel, monospace;">
 [Verse 1]
@@ -111,6 +111,6 @@ And tenement halls.
 And whisper'd in the sounds of silence.
 </pre>
 
-{% include video id="dAne8DS-kxA" provider="youtube" %}
-{% include video id="1xndwXqNHHw" provider="youtube" %}
-{% include video id="L-JQ1q-13Ek" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/dAne8DS-kxA" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/1xndwXqNHHw" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/L-JQ1q-13Ek" frameborder="0" allowfullscreen></iframe></div>

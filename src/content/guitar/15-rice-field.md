@@ -6,7 +6,7 @@ classes: wide
 
 除非特别标明：勾弦：T121；拨弦: 下 空 下 下上。
 
-{%include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              G              Am             Em             Dm7            
 x     ◯   ◯        ◯ ◯ ◯      x ◯       ◯    ◯     ◯ ◯ ◯    x x ◯          
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    
@@ -18,7 +18,7 @@ x     ◯   ◯        ◯ ◯ ◯      x ◯       ◯    ◯     ◯ ◯ ◯  
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘   
-{%include chord-end %}
+</pre>
 
 <table style="width:100%">
 <tr>
@@ -106,4 +106,4 @@ C  G  Am  Em  Dm7 G  C (T121 3)
 </tr>
 </table>
 
-{% include video id="HhubOh_wuuA" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/HhubOh_wuuA" frameborder="0" allowfullscreen></iframe></div>

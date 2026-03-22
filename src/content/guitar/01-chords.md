@@ -7,7 +7,7 @@ toc_sticky: false
 
 ## A major (A)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯       ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -18,11 +18,11 @@ x ◯       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## A major 7th (Amaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯       ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ ◯ │ │
@@ -33,11 +33,11 @@ x ◯       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## A 7th (A7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯   ◯   ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -48,11 +48,11 @@ x ◯   ◯   ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## A minor (Am)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯       ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -63,11 +63,11 @@ x ◯       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## A minor 7th (Am7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯   ◯   ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -78,11 +78,11 @@ x ◯   ◯   ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## A suspended 2nd (Asus2)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x ◯     ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -93,11 +93,11 @@ x ◯     ◯ ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B major (B)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x        
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -108,11 +108,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ ◯ ◯ ◯ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B major 7th (Bmaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
         ◯ x
 ╒═╤═╤═╤═╤═╕
 │ │ ◯ │ │ │
@@ -123,11 +123,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B 7th (B7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x       ◯  
 ╒═╤═╤═╤═╤═╕
 │ │ ◯ │ │ │
@@ -138,11 +138,11 @@ x       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B minor (Bm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
            
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -153,11 +153,11 @@ x       ◯
 ├─┼─┼─┼─┼─┤
 │ │ ◯ ◯ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B minor (no bar) (Bm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x        
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -168,11 +168,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ ◯ ◯ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## B minor 7th (Bm7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x   ◯   ◯  
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -183,11 +183,11 @@ x   ◯   ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## C major (C)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x     ◯   ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -198,11 +198,11 @@ x     ◯   ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## C major 7th (Cmaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x     ◯ ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -213,11 +213,11 @@ x     ◯ ◯ ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## C 7th (C7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x         ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -228,11 +228,11 @@ x         ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## C minor (Cm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x     ◯ x x
 ╒═╤═╤═╤═╤═╕
 │ │ ◯ │ │ │
@@ -243,11 +243,11 @@ x     ◯ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## C minor 7th (Cm7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x       x x
 ╒═╤═╤═╤═╤═╕
 │ │ ◯ │ │ │
@@ -258,11 +258,11 @@ x       x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## D major (D)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -273,11 +273,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## D major 7th (Dmaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -288,11 +288,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## D 7th (D7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -303,11 +303,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## D minor (Dm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ ◯
@@ -318,11 +318,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## D minor 7th (Dm7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ ◯
@@ -333,11 +333,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E major (E)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯       ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ ◯ │ │
@@ -348,11 +348,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E major 7th (Emaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯       ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ ◯ ◯ │ │
@@ -363,11 +363,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E 7th (E7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯   ◯   ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ ◯ │ │
@@ -378,11 +378,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E minor (Em)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯     ◯ ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -393,11 +393,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E minor 7th (Em7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯     ◯   ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -408,11 +408,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## E suspended 4th (Esus4)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 ◯       ◯ ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -423,11 +423,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F major (F)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
            
 ╒═╤═╤═╤═╤═╕
 ◯-------◯-◯
@@ -438,11 +438,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F major 7th (Fmaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x       ◯
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ ◯ │
@@ -453,11 +453,11 @@ x x       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F 7th (F7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
            
 ╒═╤═╤═╤═╤═╕
 ◯ │ ◯ │ ◯ ◯
@@ -468,11 +468,11 @@ x x       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F minor (Fm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
            
 ╒═╤═╤═╤═╤═╕
 ◯-----◯-◯-◯
@@ -483,11 +483,11 @@ x x       ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F minor (no bar) (Fm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x        
 ╒═╤═╤═╤═╤═╕
 │ │ │ ◯ ◯ ◯
@@ -498,11 +498,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## F minor 7th (Fm7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
            
 ╒═╤═╤═╤═╤═╕
 ◯ │ ◯ ◯ ◯ ◯
@@ -513,11 +513,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## G major (G)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
     ◯ ◯ ◯  
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -528,11 +528,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## G major 7th (Gmaj7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
   x ◯ ◯ ◯  
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -543,11 +543,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## G 7th (G7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
     ◯ ◯ ◯  
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ ◯
@@ -558,11 +558,11 @@ x x
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## G minor (Gm)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x x ◯      
 ╒═╤═╤═╤═╤═╕
 │ │ │ │ │ │
@@ -573,11 +573,11 @@ x x ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>
 
 ## G minor 7th (Gm7)
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 x     ◯   ◯
 ╒═╤═╤═╤═╤═╕
 │ ◯ │ │ │ │
@@ -588,4 +588,4 @@ x     ◯   ◯
 ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │
 └─┴─┴─┴─┴─┘
-{% include chord-end %}
+</pre>

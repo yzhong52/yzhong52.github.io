@@ -48,3 +48,18 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Responsive YouTube embeds */
+.video-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}

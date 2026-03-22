@@ -82,4 +82,4 @@ Em             Esus4          Asus2          Fm
     </a>
 </figure>
 
-{% include video id="mGJsZdKYGLc" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/mGJsZdKYGLc" frameborder="0" allowfullscreen></iframe></div>

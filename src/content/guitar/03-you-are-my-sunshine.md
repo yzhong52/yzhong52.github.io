@@ -6,7 +6,7 @@ classes: wide
 
 * Strumming pattern: Down Down Up, Up Down Up
 
-{% include chord-begin %}
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 G              C              D
     ◯ ◯ ◯      x     ◯   ◯    x x ◯
 ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
@@ -18,7 +18,7 @@ G              C              D
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
 │ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
-{%include chord-end %}
+</pre>
 
 <pre>
 [Chorus]
@@ -32,4 +32,4 @@ You'll never know, dear, how much I love you
 Please don't take my sunshine away
 </pre>
 
-{% include video id="APqpmK72lIs" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/APqpmK72lIs" frameborder="0" allowfullscreen></iframe></div>

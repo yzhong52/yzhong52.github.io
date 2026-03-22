@@ -12,4 +12,4 @@ excerpt: "苏打绿 2007"
     </a>
 </figure>
 
-{% include video id="TsYT9cM3aL4" provider="youtube" %}
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/TsYT9cM3aL4" frameborder="0" allowfullscreen></iframe></div>
