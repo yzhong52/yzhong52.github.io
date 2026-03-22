@@ -11,9 +11,10 @@ interface Props {
   date: Date;
   readTime: string;
   collection: 'posts' | 'guitar';
+  loading?: 'lazy' | 'eager';
 }
 
-const { title, slug, excerpt, teaser, tags, date, readTime, collection } = Astro.props;
+const { title, slug, excerpt, teaser, tags, date, readTime, collection, loading = 'lazy' } = Astro.props;
 const href = `/${collection}/${slug}/`;
 ---
 
@@ -24,6 +25,7 @@ const href = `/${collection}/${slug}/`;
         src={teaser}
         alt={title}
         class="w-full h-44 object-cover"
+        loading={loading}
       />
     </a>
   )}

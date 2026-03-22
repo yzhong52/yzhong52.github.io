@@ -19,7 +19,7 @@ const posts = (await getCollection('posts'))
   <main class="max-w-5xl mx-auto px-4 py-10">
     <h1 class="text-2xl font-bold text-slate-800 mb-6">Recent Posts</h1>
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post) => (
+      {posts.map((post, i) => (
         <PostCard
           title={post.data.title}
           slug={post.id}
@@ -29,6 +29,7 @@ const posts = (await getCollection('posts'))
           date={post.date}
           readTime={post.readTime}
           collection="posts"
+          loading={i === 0 ? 'eager' : 'lazy'}
         />
       ))}
     </div>

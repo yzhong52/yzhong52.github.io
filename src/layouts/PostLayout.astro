@@ -33,10 +33,10 @@ const {
 } = Astro.props;
 ---
 
-<Base title={title} description={description} ogImage={ogImage}>
+<Base title={title} description={description} ogImage={ogImage} ogType="article">
   {overlayImage && (
     <div class="relative w-full h-64 md:h-80 overflow-hidden">
-      <img src={overlayImage} alt={title} class="w-full h-full object-cover" />
+      <img src={overlayImage} alt={title} class="w-full h-full object-cover" fetchpriority="high" loading="eager" />
       <div
         class="absolute inset-0"
         style={`background: rgba(0,0,0,${overlayFilter})`}
@@ -74,7 +74,7 @@ const {
         <AuthorSidebar />
         {showToc && (
           <div class="sticky top-6">
-            <TableOfContents client:load />
+            <TableOfContents client:visible />
           </div>
         )}
       </aside>

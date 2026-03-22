@@ -36,7 +36,7 @@ merging to `main`.
   - `site: 'https://yzhong52.github.io'`
   - Include `sitemap()` and `react()` integrations
 - [x] Update `.gitignore` for `node_modules/`, `dist/`
-- [ ] Validate locally: `npm run dev` — Astro dev server should start at `localhost:4321`
+- [x] Validate locally: `npm run dev` — Astro dev server should start at `localhost:4321`
 
 ---
 
