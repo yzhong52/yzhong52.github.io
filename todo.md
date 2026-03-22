@@ -109,12 +109,12 @@ merging to `main`.
 
 Goal: confirm the Netlify preview is a complete, correct replacement for the live site.
 
-- [ ] Visually compare each page on the Netlify preview URL against the live Jekyll site
-- [ ] Spot-check every post slug: `/posts/2022-11-26-behavior-questions` etc. all resolve
-- [ ] Check all images render (teaser, header overlays, inline post images)
-- [ ] Verify `/guitar/` and all guitar post slugs work
-- [ ] Test search, TOC scroll-spy, and related posts
-- [ ] Check RSS feed at `/rss.xml` and sitemap at `/sitemap-index.xml`
+- [x] Visually compare each page on the Netlify preview URL against the live Jekyll site
+- [x] Spot-check every post slug: `/posts/2022-11-26-behavior-questions` etc. all resolve
+- [x] Check all images render (teaser, header overlays, inline post images)
+- [x] Verify `/guitar/` and all guitar post slugs work
+- [x] Test search, TOC scroll-spy, and related posts
+- [x] Check RSS feed at `/rss.xml` and sitemap at `/sitemap-index.xml`
 - [ ] Run Lighthouse on the Netlify preview: target 95+ Performance, Accessibility, SEO
 - [ ] Validate OG meta tags with the [Twitter Card Validator](https://cards-dev.twitter.com/validator) or [opengraph.xyz](https://www.opengraph.xyz)
 
