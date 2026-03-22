@@ -21,7 +21,7 @@ x     ◯   ◯        ◯ ◯ ◯      x ◯       ◯
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
 </pre>
 
-<pre style="font-family: Lucida Console; letter-spacing: -1.4px;">
+<pre style="font-family: 'Lucida Console', monospace;">
 [Verse 1]
 
 C

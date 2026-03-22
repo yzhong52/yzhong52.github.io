@@ -21,7 +21,7 @@ G              Em             C              D
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘  
 </pre>
 
-<pre style="font-family: Lucida Console; letter-spacing: -1.4px;">
+<pre style="font-family: 'Lucida Console', monospace;">
 [Intro]
 G G Em Em C D G G
 
