@@ -6,12 +6,12 @@ import readingTime from 'reading-time';
 import { dateFromSlug } from '../../lib/utils';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('posts');
   return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
 }
 
 const { post } = Astro.props;
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('posts');
 const { Content } = await render(post);
 
 const date = post.data.date ?? dateFromSlug(post.id);

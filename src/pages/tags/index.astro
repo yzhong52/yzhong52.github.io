@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { dateFromSlug, formatDate } from '../../lib/utils';
 
-const posts = (await getCollection('blog'))
+const posts = (await getCollection('posts'))
   .map((post) => ({
     ...post,
     date: post.data.date ?? dateFromSlug(post.id),

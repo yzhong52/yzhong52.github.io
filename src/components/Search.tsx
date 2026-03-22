@@ -6,7 +6,7 @@ interface SearchEntry {
   slug: string;
   excerpt: string;
   tags: string[];
-  collection: 'blog' | 'guitar';
+  collection: 'posts' | 'guitar';
 }
 
 export default function Search() {

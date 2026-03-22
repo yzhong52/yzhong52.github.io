@@ -7,7 +7,7 @@ import type { CollectionEntry } from 'astro:content';
 interface Props {
   currentId: string;
   currentTags: string[];
-  allPosts: CollectionEntry<'blog'>[];
+  allPosts: CollectionEntry<'posts'>[];
 }
 
 const { currentId, currentTags, allPosts } = Astro.props;
@@ -34,7 +34,7 @@ const related = allPosts
           tags={post.data.tags}
           date={post.data.date ?? dateFromSlug(post.id)}
           readTime={readingTime(post.body ?? '').text}
-          collection="blog"
+          collection="posts"
         />
       ))}
     </div>

@@ -2,7 +2,7 @@ import { getCollection } from 'astro:content';
 import type { APIRoute } from 'astro';
 
 export const GET: APIRoute = async () => {
-  const blog = await getCollection('blog');
+  const blog = await getCollection('posts');
   const guitar = await getCollection('guitar');
 
   const entries = [
@@ -11,7 +11,7 @@ export const GET: APIRoute = async () => {
       slug: p.id,
       excerpt: p.data.excerpt ?? '',
       tags: p.data.tags,
-      collection: 'blog' as const,
+      collection: 'posts' as const,
     })),
     ...guitar.map((p) => ({
       title: p.data.title,

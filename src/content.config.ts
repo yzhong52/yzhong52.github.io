@@ -9,8 +9,8 @@ const headerSchema = z.object({
   caption: z.string().optional(),
 }).optional();
 
-const blog = defineCollection({
-  loader: glob({ pattern: '**/*.{md,markdown}', base: './src/content/blog' }),
+const posts = defineCollection({
+  loader: glob({ pattern: '**/*.{md,markdown}', base: './src/content/posts' }),
   schema: z.object({
     title: z.string(),
     excerpt: z.string().optional(),
@@ -33,4 +33,4 @@ const guitar = defineCollection({
   }),
 });
 
-export const collections = { blog, guitar };
+export const collections = { posts, guitar };

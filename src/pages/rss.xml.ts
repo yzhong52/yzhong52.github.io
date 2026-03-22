@@ -4,7 +4,7 @@ import { dateFromSlug } from '../lib/utils';
 import type { APIContext } from 'astro';
 
 export async function GET(context: APIContext) {
-  const posts = (await getCollection('blog'))
+  const posts = (await getCollection('posts'))
     .map((post) => ({
       ...post,
       date: post.data.date ?? dateFromSlug(post.id),

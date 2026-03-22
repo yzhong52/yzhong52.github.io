@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import readingTime from 'reading-time';
 import { dateFromSlug } from '../lib/utils';
 
-const posts = (await getCollection('blog'))
+const posts = (await getCollection('posts'))
   .map((post) => ({
     ...post,
     date: post.data.date ?? dateFromSlug(post.id),
@@ -28,7 +28,7 @@ const posts = (await getCollection('blog'))
           tags={post.data.tags}
           date={post.date}
           readTime={post.readTime}
-          collection="blog"
+          collection="posts"
         />
       ))}
     </div>
