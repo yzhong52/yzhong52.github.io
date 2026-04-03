@@ -2,6 +2,8 @@
 title: "You Are My Sunshine"
 excerpt: "Jimmie Davis 1940"
 classes: wide
+tags:
+  - Anya's Favorites
 ---
 
 * Strumming pattern: Down Down Up, Up Down Up

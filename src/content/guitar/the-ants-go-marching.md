@@ -2,6 +2,8 @@
 title: "🐜 The Ants Go Marching"
 excerpt: ""
 classes: wide
+tags:
+  - Anya's Favorites
 ---
 
 * Strumming pattern:

@@ -2,9 +2,6 @@
 title: "Waka Waka This Time For Africa"
 excerpt: "Shakira"
 classes: wide
-tags:
-  - Shakira
-  - C-G-Am-F
 ---
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">

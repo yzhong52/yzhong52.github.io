@@ -2,6 +2,8 @@
 title: "Can't Help Falling In Love With You"
 excerpt: "Elvis Presley 1961"
 classes: wide
+tags:
+  - Anya's Favorites
 ---
 
 * Strumming pattern:

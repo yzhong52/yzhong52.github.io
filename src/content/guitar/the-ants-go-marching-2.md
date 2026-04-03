@@ -1,7 +1,9 @@
 ---
-title: "The Ants Go Marching 2"
+title: "🐜 The Ants Go Marching 2"
 excerpt: ""
 classes: wide
+tags:
+  - Anya's Favorites
 ---
 
 * Strumming pattern:

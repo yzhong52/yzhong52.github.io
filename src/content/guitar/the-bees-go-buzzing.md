@@ -2,6 +2,8 @@
 title: "🐝 The Bees Go Buzzing"
 excerpt: ""
 classes: wide
+tags:
+  - Anya's Favorites
 ---
 
 * Strumming pattern:
