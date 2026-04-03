@@ -1,13 +1,15 @@
 ---
 interface Props {
   tag: string;
+  collection: 'posts' | 'guitar';
 }
-const { tag } = Astro.props;
+const { tag, collection } = Astro.props;
 const slug = tag.toLowerCase().replace(/\s+/g, '-');
+const href = collection === 'guitar' ? `/guitar/tags/#${slug}` : `/tags/#${slug}`;
 ---
 
 <a
-  href={`/tags/#${slug}`}
+  href={href}
   class="inline-block px-2 py-0.5 text-xs font-medium bg-slate-100 text-slate-600 rounded hover:bg-primary hover:text-white transition-colors"
 >
   {tag}

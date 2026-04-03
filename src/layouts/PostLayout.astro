@@ -58,7 +58,7 @@ const {
     )}
 
     <div class="flex flex-wrap gap-1 mb-2">
-      {tags.map((tag) => <TagBadge tag={tag} />)}
+      {tags.map((tag) => <TagBadge tag={tag} collection="posts" />)}
     </div>
     <div class="text-sm text-slate-400 mb-8">
       {formatDate(date)} &middot; {readTime}

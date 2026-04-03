@@ -39,7 +39,7 @@ const href = `/${collection}/${slug}/`;
       <p class="text-sm text-slate-500 line-clamp-3 flex-1">{excerpt}</p>
     )}
     <div class="flex flex-wrap gap-1 mt-auto pt-2">
-      {tags.map((tag) => <TagBadge tag={tag} />)}
+      {tags.map((tag) => <TagBadge tag={tag} collection={collection} />)}
     </div>
     <div class="text-xs text-slate-400 flex gap-2">
       <span>{formatDate(date)}</span>

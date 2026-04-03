@@ -22,7 +22,7 @@ const { Content } = await render(post);
       <p class="text-slate-500 mb-3">{post.data.excerpt}</p>
     )}
     <div class="flex flex-wrap gap-1 mb-8">
-      {post.data.tags.map((tag) => <TagBadge tag={tag} />)}
+      {post.data.tags.map((tag) => <TagBadge tag={tag} collection="guitar" />)}
     </div>
 
     <div class="flex flex-col lg:flex-row gap-10">

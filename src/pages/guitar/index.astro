@@ -14,7 +14,12 @@ const songs = (await getCollection('guitar'))
 
 <Base title="Guitar" description="Guitar chords and songs.">
   <main class="max-w-5xl mx-auto px-4 py-10">
-    <h1 class="text-2xl font-bold text-slate-800 mb-6">Guitar</h1>
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-slate-800">Guitar</h1>
+      <a href="/guitar/tags/" class="text-sm px-3 py-1.5 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors">
+        Group by tags
+      </a>
+    </div>
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {songs.map((post) => (
         <PostCard

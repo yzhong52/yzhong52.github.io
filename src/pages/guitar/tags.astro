@@ -1,0 +1,62 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const songs = (await getCollection('guitar'))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const tagMap = new Map<string, typeof songs>();
+for (const song of songs) {
+  for (const tag of song.data.tags) {
+    if (!tagMap.has(tag)) tagMap.set(tag, []);
+    tagMap.get(tag)!.push(song);
+  }
+}
+
+const sortedTags = [...tagMap.keys()].sort();
+---
+
+<Base title="Guitar Tags" description="Guitar songs grouped by tag.">
+  <main class="max-w-3xl mx-auto px-4 py-10">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-bold text-slate-800">Guitar Tags</h1>
+      <a href="/guitar/" class="text-sm px-3 py-1.5 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-colors">
+        All songs
+      </a>
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-10">
+      {sortedTags.map((tag) => (
+        <a
+          href={`#${tag.toLowerCase().replace(/\s+/g, '-')}`}
+          class="px-3 py-1 text-sm bg-slate-100 text-slate-600 rounded-full hover:bg-primary hover:text-white transition-colors"
+        >
+          {tag} <span class="text-xs opacity-70">({tagMap.get(tag)!.length})</span>
+        </a>
+      ))}
+    </div>
+
+    {sortedTags.map((tag) => (
+      <section
+        id={tag.toLowerCase().replace(/\s+/g, '-')}
+        class="mb-10 scroll-mt-6"
+      >
+        <h2 class="text-lg font-semibold text-slate-800 border-b border-slate-200 pb-2 mb-4">
+          {tag}
+        </h2>
+        <ul class="space-y-3">
+          {tagMap.get(tag)!.map((song) => (
+            <li>
+              <a
+                href={`/guitar/${song.id}/`}
+                class="text-slate-700 hover:text-primary transition-colors"
+              >
+                {song.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </main>
+</Base>
