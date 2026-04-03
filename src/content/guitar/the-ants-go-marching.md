@@ -1,10 +1,12 @@
 ---
-title: "The Ants Go Marching"
+title: "🐜 The Ants Go Marching"
 excerpt: ""
 classes: wide
 ---
 
-* Strumming pattern: 
+* Strumming pattern:
+
+> Same chords as [The Bees Go Buzzing](/guitar/the-bees-go-buzzing/).
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              G7             Am             E          
@@ -127,7 +129,7 @@ To get out of the rain.
 </pre>
 
 <!-- Optional: add a YouTube embed below -->
-The guitar chord above is derived from the following tutorial
+The guitar chord above is derived from the following tutorial:
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/SX_QPtUzp-k" frameborder="0" allowfullscreen></iframe></div>
 
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/2S__fbCGwOM" frameborder="0" allowfullscreen></iframe></div>
