@@ -6,12 +6,43 @@ classes: wide
 
 * Strumming pattern:
 
-> See also [The Ants Go Marching](/guitar/the-ants-go-marching/).
+> See also [The Ants Go Marching](/guitar/the-ants-go-marching/) and [The Bees Go Buzzing](/guitar/the-bees-go-buzzing/).
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 </pre>
 
 <!-- Paste lyrics below. Add chord annotations yourself where desired. -->
+
+Short version:
+
+<pre>
+Am x4                            C x4
+The ants go marching one by one, hoorah, hoorah.
+Am x4                            C x4
+The ants go marching one by one, hoorah, hoorah.
+C x2                 G7 x2
+The ants go marching one by one,
+Am x2                      E x2
+The little one eats a juicy plum.
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+
+Yum, yum, yum!
+
+...two...apple juice...
+...three...spot of tea...
+...four...ear of corn...
+...five...pumpkin pie...
+...six...potato chips...
+...seven...watermelon...
+...eight...chocolate cake...
+...nine...sour lime...
+...ten...shout "I'm full!!"
+</pre>
+
+Full version:
 
 <pre>
 🐜 1

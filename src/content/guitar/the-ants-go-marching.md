@@ -6,7 +6,7 @@ classes: wide
 
 * Strumming pattern:
 
-> Same chords as [The Bees Go Buzzing](/guitar/the-bees-go-buzzing/).
+> Same chords as [The Ants Go Marching 2](/guitar/the-ants-go-marching-2/) and [The Bees Go Buzzing](/guitar/the-bees-go-buzzing/).
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              G7             Am             E          
@@ -39,7 +39,7 @@ Am x2                   E x2
 The little one stops to suck his thumb.
          C   G7 Am E     Am x2
 And they all go marching down,
-Am x2          Am x4
+       Am x2      Am x2           Am x2
 To the ground, to get out, of the rain.
 
 BOOM! BOOM! BOOM!

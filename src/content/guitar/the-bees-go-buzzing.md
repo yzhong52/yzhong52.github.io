@@ -6,7 +6,7 @@ classes: wide
 
 * Strumming pattern:
 
-> Same chords as [The Ants Go Marching](/guitar/the-ants-go-marching/).
+> Same chords as [The Ants Go Marching](/guitar/the-ants-go-marching/) and [The Ants Go Marching 2](/guitar/the-ants-go-marching-2/).
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 C              G7             Am             E
@@ -33,12 +33,14 @@ Am x4                           C x4
 The bees go buzzing one by one, hoorah, hoorah.
 C x2                G7 x2
 The bees go buzzing one by one,
-Am x2                  E x2
+Am x2                   E x2
 The little one stops to have some fun.
-         C   G7 Am E     Am x2
+         C   G7 Am E   Am x2        Am x2
 And they all go flying high, in the sky,
-Am x2          Am x4
-To go back, to their hive. Buzz, buzz, buzz.
+      Am x2          Am x2
+To go back, to their hive.
+
+Buzz, buzz, buzz.
 
 ...two...sing a tune...
 ...three...scratch her knee...
@@ -54,91 +56,80 @@ To go back, to their hive. Buzz, buzz, buzz.
 Full version:
 
 <pre>
-The bees go buzzing one by one
-Hoorah! Hoorah!
-The bees go buzzing one by one
-Hoorah! Hoorah!
+The bees go buzzing one by one. Hoorah! Hoorah!
+The bees go buzzing one by one. Hoorah! Hoorah!
 The bees go buzzing one by one
 The little one stops to have some fun
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing two by two
-Hoorah! Hoorah!
-The bees go buzzing two by two
-Hoorah! Hoorah!
+
+The bees go buzzing two by two. Hoorah! Hoorah!
+The bees go buzzing two by two. Hoorah! Hoorah!
 The bees go buzzing two by two
 The little one stops to sing a tune
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing three by three
-Hoorah! Hoorah!
-The bees go buzzing three by three
-Hoorah! Hoorah!
+
+The bees go buzzing three by three. Hoorah! Hoorah!
+The bees go buzzing three by three. Hoorah! Hoorah!
 The bees go buzzing three by three
 The little one stops to scratch her knee
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing four by four
-Hoorah! Hoorah!
-The bees go buzzing four by four
-Hoorah! Hoorah!
+
+The bees go buzzing four by four. Hoorah! Hoorah!
+The bees go buzzing four by four. Hoorah! Hoorah!
 The bees go buzzing four by four
 The little one stops to sing once more
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing five by five
-Hoorah! Hoorah!
-The bees go buzzing five by five
-Hoorah! Hoorah!
+
+The bees go buzzing five by five. Hoorah! Hoorah!
+The bees go buzzing five by five. Hoorah! Hoorah!
 The bees go buzzing five by five
 The little one stops to exercise
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing six by six
-Hoorah! Hoorah!
-The bees go buzzing six by six
-Hoorah! Hoorah!
+
+The bees go buzzing six by six. Hoorah! Hoorah!
+The bees go buzzing six by six. Hoorah! Hoorah!
 The bees go buzzing six by six
 The little one stops to make a wish
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing seven by seven
-Hoorah! Hoorah!
-The bees go buzzing seven by seven
-Hoorah! Hoorah!
+
+The bees go buzzing seven by seven. Hoorah! Hoorah!
+The bees go buzzing seven by seven. Hoorah! Hoorah!
 The bees go buzzing seven by seven
 The little one stops to ask directions
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing eight by eight
-Hoorah! Hoorah!
-The bees go buzzing eight by eight
-Hoorah! Hoorah!
+
+The bees go buzzing eight by eight. Hoorah! Hoorah!
+The bees go buzzing eight by eight. Hoorah! Hoorah!
 The bees go buzzing eight by eight
 The little one stops to pollinate
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing nine by nine
-Hoorah! Hoorah!
-The bees go buzzing nine by nine
-Hoorah! Hoorah!
+
+The bees go buzzing nine by nine. Hoorah! Hoorah!
+The bees go buzzing nine by nine. Hoorah! Hoorah!
 The bees go buzzing nine by nine
 The little one stops to starts to fall behind
 And they all go flying high in the sky
 To go back to their hive
 Buzz, buzz, buzz
-The bees go buzzing ten by ten
-Hoorah! Hoorah!
-The bees go buzzing ten by ten
-Hoorah! Hoorah!
+
+The bees go buzzing ten by ten. Hoorah! Hoorah!
+The bees go buzzing ten by ten. Hoorah! Hoorah!
 The bees go buzzing ten by ten
 The little one stops to shout
 The end
