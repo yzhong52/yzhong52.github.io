@@ -35,9 +35,9 @@ C x2                 G7 x2
 The ants go marching one by one,
 Am x2                   E x2
 The little one stops to suck his thumb.
-         C   G7 Am E     Am
+         C   G7 Am E     Am x2
 And they all go marching down,
-Am x4          Am x4
+Am x2          Am x4
 To the ground, to get out, of the rain.
 
 BOOM! BOOM! BOOM!
@@ -127,5 +127,7 @@ To get out of the rain.
 </pre>
 
 <!-- Optional: add a YouTube embed below -->
-
+The guitar chord above is derived from the following tutorial
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/SX_QPtUzp-k" frameborder="0" allowfullscreen></iframe></div>
+
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/2S__fbCGwOM" frameborder="0" allowfullscreen></iframe></div>
