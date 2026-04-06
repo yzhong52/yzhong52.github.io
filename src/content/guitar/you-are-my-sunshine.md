@@ -6,31 +6,43 @@ tags:
   - Anya's Favorites
 ---
 
-* Strumming pattern: Down Down Up, Up Down Up
+Strumming pattern: Down Down Up, Up Down Up
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
-G              C              D
-    ◯ ◯ ◯      x     ◯   ◯    x x ◯
-╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
-│ │ │ │ │ │    │ │ │ │ ◯ │    │ │ │ │ │ │
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-│ ◯ │ │ │ │    │ │ ◯ │ │ │    │ │ │ ◯ │ ◯
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-◯ │ │ │ │ ◯    │ ◯ │ │ │ │    │ │ │ │ ◯ │
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-│ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │
-└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
+G              C              D              E
+    ◯ ◯ ◯      x     ◯   ◯    x x ◯         ◯       ◯ ◯
+╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
+│ │ │ │ │ │    │ │ │ │ ◯ │    │ │ │ │ │ │    │ │ │ ◯ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ ◯ │ │ │ │    │ │ ◯ │ │ │    │ │ │ ◯ │ ◯    │ ◯ ◯ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+◯ │ │ │ │ ◯    │ ◯ │ │ │ │    │ │ │ │ ◯ │    │ │ │ │ │ │
+└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
 </pre>
 
+Version 1:
 <pre>
 [Chorus]
-           G                 (G)
+           G                 G
 You are my sunshine, my only sunshine
             C                    G
 You make me happy when skies are grey
-             C                      G or E
+             C                      G
 You'll never know, dear, how much I love you
-             (G)     D         G
+             G                 G
+Please don't take my sunshine away
+</pre>
+
+Version 2:
+<pre>
+[Chorus]
+           G                 G
+You are my sunshine, my only sunshine
+            C                    G
+You make me happy when skies are grey
+             C                      E
+You'll never know, dear, how much I love you
+             G½      D½        G
 Please don't take my sunshine away
 </pre>
 
