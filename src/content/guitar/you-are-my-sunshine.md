@@ -28,7 +28,7 @@ G              C              D
 You are my sunshine, my only sunshine
             C                    G
 You make me happy when skies are grey
-             C                      G
+             C                      G or E
 You'll never know, dear, how much I love you
              (G)     D         G
 Please don't take my sunshine away
