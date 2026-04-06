@@ -1,5 +1,5 @@
 ---
-title: "You Are My Sunshine"
+title: "You Are My Sunshine (G)"
 excerpt: "Jimmie Davis 1940"
 classes: wide
 tags:
@@ -44,6 +44,8 @@ You make me happy when skies are grey
 You'll never know, dear, how much I love you
              G½      D½        G
 Please don't take my sunshine away
+   Em½  D½  G½
+(ending...)
 </pre>
 
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/APqpmK72lIs" frameborder="0" allowfullscreen></iframe></div>
