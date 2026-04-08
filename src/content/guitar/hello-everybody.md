@@ -22,30 +22,34 @@ C              Am7            F              G7
 
 <pre>
 [Chorus]
-C  Am7  C  Am7      F    G7     C
-Hello Everybody, so glad to see you
- 
-C  Am7  C  Am7      F    G7     C
-Hello Everybody, so glad to see you
- 
+C  Am7  C   Am7     F    G7     C
+Hello, everybody! So glad to see you!
+C  Am7  C   Am7        F    G7     C
+Hello, everybody! We're so glad to see you!
+
 [Verse]
-C  Am7    C  Am7  F    G7     C
-Hello to John, so glad to see you
- 
+C  Am7   C  Am7   F    G7     C
+Hello to John, so glad to see you!
+C  Am7   C Am7   F    G7     C
+Hello to Lin, so glad to see you too!
+
 [Verse]
-C  Am7   C Am7    F    G7     C
-Hello to Lynn, so glad to see you
- 
+C  Am7   C  Am7    F    G7     C
+Hello to Mommy, so glad to see you!
+C  Am7   C  Am7    F    G7     C
+Hello to Daddy, so glad to see you!
+
 [Verse]
-C  Am7   C  Am7            F    G7     C
-Hello to (insert name), so glad to see you
- 
+C  Am7     C     Am7       F    G7     C
+Hello, I'm Uncle Jerry, so glad to see you!
+C  Am7     C       Am7        F    G7     C
+Hello, I'm Grandma Yvette, so glad to see you too!
+
 [Chorus]
-C  Am7  C  Am7      F    G7     C
-Hello Everybody, so glad to see you
- 
-C  Am7  C  Am7      F    G7     C
-Hello Everybody, so glad to see you
+C  Am7  C   Am7      F    G7     C
+Hello, everybody! So glad to see you!
+C  Am7  C   Am7         F    G7     C
+Hello, everybody! We're so glad to see you!
 </pre>
 
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/DSdHGBxlTmY" frameborder="0" allowfullscreen></iframe></div>
