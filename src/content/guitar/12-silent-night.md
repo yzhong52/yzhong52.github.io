@@ -2,6 +2,8 @@
 title: "Silent Night"
 classes: wide
 excerpt: "1818"
+tags:
+  - "Yz's Favourite"
 ---
 
 Time signature: 3/4

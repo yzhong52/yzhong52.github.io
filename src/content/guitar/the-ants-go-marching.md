@@ -20,38 +20,35 @@ C              G7             Am             E
 ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
 │ ◯ │ │ │ │    ◯ │ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │
 └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
-
-F#             G#         
-               ◯       ◯ ◯
-╒═╤═╤═╤═╤═╕    ╒𝟺╤𝟺╤𝟺╤𝟺╤𝟺╕
-│ │ │ │ │ │    │ │ │ ◯ │ │
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-◯―――――――◯―◯    │ ◯ ◯ │ │ │
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-│ │ │ ◯ │ │    │ │ │ │ │ │
-├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
-│ ◯ ◯ │ │ │    │ │ │ │ │ │
-└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
+E              F#             G#         
+◯       ◯ ◯                   ◯       ◯ ◯
+╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒𝟺╤𝟺╤𝟺╤𝟺╤𝟺╕
+│ │ │ ◯ │ │    │ │ │ │ │ │    │ │ │ ◯ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ ◯ ◯ │ │ │    ◯―――――――◯―◯    │ ◯ ◯ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ │ │ │ │ │    │ │ │ ◯ │ │    │ │ │ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ │ │ │ │ │    │ ◯ ◯ │ │ │    │ │ │ │ │ │
+└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
 </pre>
-
-<!-- Paste lyrics below. Add chord annotations yourself where desired. -->
 
 Short version:
 
 <pre>
-Am x4                            C x4
+    Am x4                        C x4
 The ants go marching one by one, hurrah, hurrah.
-Am x4                            C x4
+    Am x4                        C x4
 The ants go marching one by one, hurrah, hurrah.
-C x2                 G7 x2
+    C x2             G7 x2
 The ants go marching one by one,
-Am x2                   E x2
+    Am x2               E x2
 The little one stops to suck his thumb.
          C   G7 Am E     Am x2
 And they all go marching down,
        Am x2      Am x2           Am x2
 To the ground, to get out, of the rain.
-E     F#    G#
+E    F#   G# (as single notes)
 BOOM! BOOM! BOOM!
 
 ...two...tie her shoe...

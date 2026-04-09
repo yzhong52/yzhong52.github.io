@@ -4,6 +4,8 @@ excerpt: "许巍 2005"
 classes: wide
 ---
 
+* Strumming pattern: Down, Down Up, Up, Down Up
+
 <pre STYLE="font-family: monospace; font-size: 14px;">
 Em             Esus4          Asus2          Fm             
 ◯     ◯ ◯ ◯    ◯       ◯ ◯    x ◯     ◯ ◯                   
