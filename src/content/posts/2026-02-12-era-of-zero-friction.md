@@ -1,8 +1,12 @@
 ---
 title: The Era of Zero Friction
+excerpt: "AI is reversing decades of specialization — designers, PMs, managers, and engineers are all becoming builders again."
 tags:
   - AI
 toc: true
+header:
+  teaser: /assets/images/Gemini_Generated_Image_6rdjaf6rdjaf6rdj.png
+  overlay_image: /assets/images/Gemini_Generated_Image_6rdjaf6rdjaf6rdj.png
 ---
 
 Today, during our team meeting, we had a discussion about the AI tools we use. I'd like to organize some of my ad-hoc thoughts from that discussion and share them here.
