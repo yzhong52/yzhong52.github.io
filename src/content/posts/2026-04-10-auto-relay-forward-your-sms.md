@@ -1,7 +1,9 @@
 ---
 title: "Auto Relay: Forward Your SMS"
+excerpt: "How I built an Android app to unblock 2-factor authentication for AI agents."
 header:
-  teaser: /assets/images/auto-relay.png
+  teaser: /assets/images/Gemini_Generated_Image_47fczl47fczl47fc.png
+  overlay_image: /assets/images/Gemini_Generated_Image_47fczl47fczl47fc.png
 ---
 
 As I've been trying to automate more of my life away with AI agents,
