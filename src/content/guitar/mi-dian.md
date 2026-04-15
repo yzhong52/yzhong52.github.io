@@ -13,6 +13,66 @@ Strumming pattern (pick one):
 * Waltz: `D - DU DU`
 * Fingerpicking: Bass on beat 1, mid string on beat 2, high string on beat 3
 
+<pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
+C              Em             Am7            G6         
+✕     ◯   ◯    ◯     ◯ ◯ ◯    ✕ ◯   ◯   ◯        ◯ ◯ ◯ ◯
+╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
+│ │ │ │ ◯ │    │ │ │ │ │ │    │ │ │ │ ◯ │    │ │ │ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ │ ◯ │ │ │    │ ◯ ◯ │ │ │    │ │ ◯ │ │ │    │ ◯ │ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ ◯ │ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    ◯ │ │ │ │ │
+└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
+
+Fmaj7          Am             D6             G          
+✕ ✕       ◯    ✕ ◯       ◯    ✕ ◯ ◯   ◯          ◯ ◯ ◯  
+╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕    ╒═╤═╤═╤═╤═╕
+│ │ │ │ ◯ │    │ │ │ │ ◯ │    │ │ │ │ │ │    │ │ │ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ │ │ ◯ │ │    │ │ ◯ ◯ │ │    │ │ │ ◯ │ ◯    │ ◯ │ │ │ │
+├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤    ├─┼─┼─┼─┼─┤
+│ │ ◯ │ │ │    │ │ │ │ │ │    │ │ │ │ │ │    ◯ │ │ │ │ ◯
+└─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘    └─┴─┴─┴─┴─┘
+
+* Am/E = Am with low E string open (don't mute the 6th string)
+</pre>
+
+<pre>
+[Intro]
+C      C      Em     Em
+Am7    Am7    G6     G6
+Fmaj7  Fmaj7  Am/E   Am/E
+D6     D6     G      G
+
+[Verse 1]
+C     C     Em   Em
+三月的 烟雨飘 摇 的 南方
+    Am7   Am7   G6    G6
+你坐在   你空空的 米店
+  Fmaj7   Fmaj7    Am/E  Am/E
+你一手拿着 苹果 一手  拿着  命运
+  D6    D6     G      G
+在寻找你 自己的  香
+
+[Verse 2]
+窗外的人们匆匆忙忙
+把眼光丢在潮湿的路上
+你的舞步划过空空的房间
+时光就变成了烟   爱人 
+
+[Verse 3]
+你可感到明天已经来临
+码头上停着我们的船
+我会洗干净头发爬上桅杆
+撑起我们葡萄枝嫩叶般的家
+
+[Outro]
+C      C      Em     Em
+Am7    Am7    G6     G6
+Fmaj7  Fmaj7  Am/E   Am/E
+D6     D6     G      G
+</pre>
+
 <figure>
   <a href="/assets/guitar/mi-dian/mi-dian-1.png">
     <img src="/assets/guitar/mi-dian/mi-dian-1.png">
