@@ -6,7 +6,7 @@ tags:
   - Anya's Favorites
 ---
 
-* Strumming pattern:
+* Strumming pattern: ↓ ↓ ↓ ↓ (4 down strums per bar)
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">
 G              D              D7             C          
