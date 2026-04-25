@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import AuthorSidebar from '../../components/AuthorSidebar.astro';
 import TagBadge from '../../components/TagBadge.astro';
+import AutoScroll from '../../components/AutoScroll.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -34,4 +35,5 @@ const { Content } = await render(post);
       </aside>
     </div>
   </div>
+  <AutoScroll />
 </Base>

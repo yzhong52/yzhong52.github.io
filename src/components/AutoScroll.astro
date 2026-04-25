@@ -1,0 +1,101 @@
+---
+---
+
+<div id="autoscroll" class="fixed bottom-6 right-6 flex items-center gap-1 bg-white border border-slate-200 rounded-full shadow-lg px-3 py-2 z-50 select-none">
+  <button id="autoscroll-slower" class="text-slate-400 hover:text-slate-700 transition-colors w-7 h-7 flex items-center justify-center rounded-full hover:bg-slate-100" title="Slower">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+  </button>
+  <button id="autoscroll-toggle" class="w-9 h-9 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-600 text-white transition-colors shadow-sm" title="Play/Pause">
+    <svg id="icon-play" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,3 20,12 6,21"/></svg>
+    <svg id="icon-pause" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+  </button>
+  <button id="autoscroll-faster" class="text-slate-400 hover:text-slate-700 transition-colors w-7 h-7 flex items-center justify-center rounded-full hover:bg-slate-100" title="Faster">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+  </button>
+  <span id="autoscroll-speed" class="text-xs text-slate-400 w-7 text-center">1×</span>
+</div>
+
+<script>
+  const SPEEDS = [0.5, 1, 1.5, 2, 3, 4];
+  let speedIndex = 1;
+  let playing = false;
+  let raf: number | null = null;
+  let lastTime: number | null = null;
+  let scrollPos = 0;
+  const PX_PER_SEC_BASE = 40;
+
+  const toggle = document.getElementById('autoscroll-toggle')!;
+  const slower = document.getElementById('autoscroll-slower')!;
+  const faster = document.getElementById('autoscroll-faster')!;
+  const speedLabel = document.getElementById('autoscroll-speed')!;
+  const iconPlay = document.getElementById('icon-play')!;
+  const iconPause = document.getElementById('icon-pause')!;
+
+  function updateUI() {
+    iconPlay.style.display = playing ? 'none' : 'block';
+    iconPause.style.display = playing ? 'block' : 'none';
+    speedLabel.textContent = `${SPEEDS[speedIndex]}×`;
+    slower.style.opacity = speedIndex === 0 ? '0.3' : '1';
+    faster.style.opacity = speedIndex === SPEEDS.length - 1 ? '0.3' : '1';
+  }
+
+  function scroll(ts: number) {
+    if (!playing) return;
+    if (lastTime !== null) {
+      const delta = (ts - lastTime) / 1000;
+      scrollPos += PX_PER_SEC_BASE * SPEEDS[speedIndex] * delta;
+      window.scrollTo(0, scrollPos);
+      // -2 to account for sub-pixel rounding
+      if (window.scrollY + window.innerHeight >= document.body.scrollHeight - 2) {
+        playing = false;
+        updateUI();
+        return;
+      }
+    }
+    lastTime = ts;
+    raf = requestAnimationFrame(scroll);
+  }
+
+  let wheelTimer: ReturnType<typeof setTimeout> | null = null;
+
+  // Pause auto-scroll on manual wheel input; resume 1s after the user stops.
+  // passive: true lets the browser scroll without waiting for this handler.
+  window.addEventListener('wheel', () => {
+    if (!playing) return;
+    if (raf) { cancelAnimationFrame(raf); raf = null; }
+    if (wheelTimer) clearTimeout(wheelTimer);
+    wheelTimer = setTimeout(() => {
+      if (playing) {
+        scrollPos = window.scrollY;
+        lastTime = null; // prevent a time-jump on the first resumed frame
+        raf = requestAnimationFrame(scroll);
+      }
+    }, 1000);
+  }, { passive: true });
+
+  window.addEventListener('scroll', () => {
+    if (!playing) scrollPos = window.scrollY;
+  });
+
+  toggle.addEventListener('click', () => {
+    playing = !playing;
+    if (playing) {
+      scrollPos = window.scrollY;
+      lastTime = null;
+      raf = requestAnimationFrame(scroll);
+    } else if (raf) {
+      cancelAnimationFrame(raf);
+    }
+    updateUI();
+  });
+
+  slower.addEventListener('click', () => {
+    if (speedIndex > 0) { speedIndex--; updateUI(); }
+  });
+
+  faster.addEventListener('click', () => {
+    if (speedIndex < SPEEDS.length - 1) { speedIndex++; updateUI(); }
+  });
+
+  updateUI();
+</script>
