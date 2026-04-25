@@ -2,6 +2,7 @@
 title: "礼物"
 excerpt: "许巍 2005"
 classes: wide
+tags: ["Yuchen's Favourite"]
 ---
 
 * Strumming pattern: Down, Down Up, Up, Down Up

@@ -1,6 +1,7 @@
 ---
 title: "小情歌"
 excerpt: "苏打绿 2007"
+tags: ["Yuchen's Favourite"]
 ---
 
 <figure class="half">
