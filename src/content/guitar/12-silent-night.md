@@ -6,6 +6,10 @@ tags:
   - "Yz's Favourite"
 ---
 
+Written in 1818 in Oberndorf bei Salzburg, Austria. Lyrics by Joseph Mohr,
+melody by Franz Xaver Gruber. First performed on Christmas Eve 1818 at St.
+Nicholas Church. Now translated into over 300 languages.
+
 Time signature: 3/4
 
 <pre style="font-family: 'Lucida Console', monospace; letter-spacing: -1.4px;">

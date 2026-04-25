@@ -1,7 +1,7 @@
 ---
 title: "童年"
 excerpt: "罗大佑 1982"
-tags: ["Yuchen's Favourite"]
+tags: ["Yz's Favourite"]
 ---
 
 <figure>
