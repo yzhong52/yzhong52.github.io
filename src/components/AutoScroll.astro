@@ -16,13 +16,13 @@
 </div>
 
 <script>
-  const SPEEDS = [0.5, 1, 1.5, 2, 3, 4];
-  let speedIndex = 1;
+  const SPEEDS = [0.6, 0.75, 1, 1.3, 1.7, 2.2];
+  let speedIndex = 2;
   let playing = false;
   let raf: number | null = null;
   let lastTime: number | null = null;
   let scrollPos = 0;
-  const PX_PER_SEC_BASE = 40;
+  const PX_PER_SEC_BASE = 20;
 
   const toggle = document.getElementById('autoscroll-toggle')!;
   const slower = document.getElementById('autoscroll-slower')!;
