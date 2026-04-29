@@ -3,7 +3,7 @@ title: "OpenVault: Teaching an AI to Be My Banker"
 excerpt: "How I built a CLI that lets an AI agent log in to my bank accounts and track my net worth over time."
 ---
 
-I was a big fan of the feature in mint.com and particularly like that we can keep track of net worth over time.
+Keeping track of net worth across multiple bank accounts is surprisingly hard. I was a big fan of mint.com for exactly this reason — it gave me a single view of everything over time.
 
 But that didn't work very well at the time. It suffers from flakiness - The bank connections broke from time to time. I also had doubts about how much I should trust a 3rd party company with all my financial information.
 
