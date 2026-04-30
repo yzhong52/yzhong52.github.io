@@ -1,9 +1,7 @@
 ---
 title: "Hello Everybody"
 excerpt: "Traditional"
-tags:
-  - Anya's Favorites
-  - TDDO
+tags: ["Anya's Favorites", "Todo"]
 ---
 
 Strumming pattern: one downstrum per chord — e.g. C C Am7 Am7 is one measure (4 downstrums in 4/4)
