@@ -1,5 +1,5 @@
 ---
-title: "OpenVault: Teaching an AI to Be My Banker"
+title: "OpenVault: Let an AI Agent Be My Banker"
 excerpt: "How I built a CLI that lets an AI agent log in to my bank accounts and track my net worth over time."
 ---
 
@@ -22,7 +22,7 @@ That’s OpenVault.
 
 Very simple CLI that uses an LLM to log in to all my bank accounts periodically, keep track of all my accounts and their balances over time.
 
-- Works with most banks out of the box. As long as there is a website, the agent will know how to navigate and download information that I need. It will automatically update its memory as the banking website evolves (self learning and self improvement).
+- Works with many banks out of the box. Tested with Schwab, TD, Wealthsimple, Questrade, and Tangerine. In theory, as long as there is a website, the agent will know how to navigate and download information that we need. It will automatically update its memory as the banking website evolves (self learning and self improvement).
 - Fully automated. The only remaining blocker was two-factor authentication. But after I built https://github.com/yzhong52/auto-relay, AI agent can have access to all my two-factor authentication codes. 
 
 
