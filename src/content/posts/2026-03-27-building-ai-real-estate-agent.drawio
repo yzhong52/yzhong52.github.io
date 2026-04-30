@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="Tbj8piVBE2Fi-zx6Uv1_">
+        <mxGraphModel dx="270" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XbLvT9Vuh5baVcNUIuMo-1" target="XbLvT9Vuh5baVcNUIuMo-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-1" value="New Listing Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="290" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XbLvT9Vuh5baVcNUIuMo-2" target="XbLvT9Vuh5baVcNUIuMo-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-2" value="Openclaw" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="305" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-4" value="Daily Email Scan for New Properties" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="270" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-5" value="AI Review" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="305" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XbLvT9Vuh5baVcNUIuMo-7" target="XbLvT9Vuh5baVcNUIuMo-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-7" value="Search Profiles" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="180" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XbLvT9Vuh5baVcNUIuMo-10" target="XbLvT9Vuh5baVcNUIuMo-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-10" value="Listing Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="290" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XbLvT9Vuh5baVcNUIuMo-5" target="XbLvT9Vuh5baVcNUIuMo-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-14" value="Human" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="140" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-15" value="Human defined search profiles" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="140" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-17" value="Human" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="210" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="XbLvT9Vuh5baVcNUIuMo-18" value="Human Review" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="305" width="80" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
