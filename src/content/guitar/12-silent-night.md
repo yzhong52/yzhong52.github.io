@@ -2,8 +2,7 @@
 title: "Silent Night"
 classes: wide
 excerpt: "1818"
-tags:
-  - "Yz's Favourite"
+tags: ["Yz's Favourite"]
 ---
 
 Written in 1818 in Oberndorf bei Salzburg, Austria. Lyrics by Joseph Mohr,
