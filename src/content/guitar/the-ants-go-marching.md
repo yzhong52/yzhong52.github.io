@@ -206,13 +206,7 @@ The ants go marching ten by ten, hurrah, hurrah
     C x2           G7 x2
 The ants go marching ten by ten,
     Am x2                   E x2
-The little one stops to shout "The End",
-         C   G7 Am E     Am x2
-And they all go marching down,
-       Am x2      Am x2           Am x2
-To the ground, to get out, of the rain.
-E    F#   G# (as single notes)
-BOOM! BOOM! BOOM!
+The little one stops to shout "The End!"
 </pre>
 
 The guitar chord above is derived from the following tutorial:
@@ -417,12 +411,6 @@ The ants go marching ten by ten, hoorah, hoorah
 The ants go marching ten by ten
     Am x2                    E x2
 The little one stops to shout "I'm full!!"
-         C   G7 Am E     Am x2
-And they all go marching down,
-       Am x2      Am x2           Am x2
-To the ground, to get out, of the rain.
-E    F#   G# (as single notes)
-Yum, yum, yum!
 </pre>
 
 Lyrics from [Super Simple Songs](https://supersimple.com/song/ants-go-marching-2/?sl=English).
@@ -606,12 +594,6 @@ The bees go buzzing ten by ten. Hoorah! Hoorah!
 The bees go buzzing ten by ten
     Am x2                    E x2
 The little one stops to shout "The End!"
-         C   G7 Am E   Am x2        Am x2
-And they all go flying high, in the sky,
-      Am x2          Am x2
-To go back, to their hive.
-E    F#   G# (as single notes)
-Buzz, buzz, buzz.
 </pre>
 
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/bWUgZm_AE64" frameborder="0" allowfullscreen></iframe></div>
