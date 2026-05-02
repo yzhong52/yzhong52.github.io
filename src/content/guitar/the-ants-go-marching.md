@@ -64,75 +64,155 @@ BOOM! BOOM! BOOM!
 
 Full version:
 <pre>
+    Am x4                        C x4
 The ants go marching one by one, hurrah, hurrah
+    Am x4                        C x4
 The ants go marching one by one, hurrah, hurrah
+    C x2             G7 x2
 The ants go marching one by one,
+    Am x2               E x2
 The little one stops to suck his thumb
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                        C x4
 The ants go marching two by two, hurrah, hurrah
+    Am x4                        C x4
 The ants go marching two by two, hurrah, hurrah
+    C x2             G7 x2
 The ants go marching two by two,
+    Am x2              E x2
 The little one stops to tie his shoe
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                          C x4
 The ants go marching three by three, hurrah, hurrah
+    Am x4                          C x4
 The ants go marching three by three, hurrah, hurrah
+    C x2               G7 x2
 The ants go marching three by three,
+    Am x2              E x2
 The little one stops to climb a tree
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                        C x4
 The ants go marching four by four, hurrah, hurrah
+    Am x4                        C x4
 The ants go marching four by four, hurrah, hurrah
+    C x2             G7 x2
 The ants go marching four by four,
+    Am x2              E x2
 The little one stops to shut the door
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                        C x4
 The ants go marching five by five, hurrah, hurrah
+    Am x4                        C x4
 The ants go marching five by five, hurrah, hurrah
+    C x2             G7 x2
 The ants go marching five by five,
+    Am x2             E x2
 The little one stops to take a dive
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                      C x4
 The ants go marching six by six, hurrah, hurrah
+    Am x4                      C x4
 The ants go marching six by six, hurrah, hurrah
+    C x2           G7 x2
 The ants go marching six by six,
+    Am x2              E x2
 The little one stops to pick up sticks
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                              C x4
 The ants go marching seven by seven, hurrah, hurrah
+    Am x4                              C x4
 The ants go marching seven by seven, hurrah, hurrah
+    C x2                   G7 x2
 The ants go marching seven by seven,
+    Am x2                E x2
 The little one stops to pray to heaven
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                          C x4
 The ants go marching eight by eight, hurrah, hurrah
+    Am x4                          C x4
 The ants go marching eight by eight, hurrah, hurrah
+    C x2               G7 x2
 The ants go marching eight by eight,
+    Am x2                E x2
 The little one stops to roller skate
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                        C x4
 The ants go marching nine by nine, hurrah, hurrah
+    Am x4                        C x4
 The ants go marching nine by nine, hurrah, hurrah
+    C x2             G7 x2
 The ants go marching nine by nine,
+    Am x2               E x2
 The little one stops to check the time
-And they all go marching down to the ground
-To get out of the rain, BOOM! BOOM! BOOM!
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 
+    Am x4                      C x4
 The ants go marching ten by ten, hurrah, hurrah
+    Am x4                      C x4
 The ants go marching ten by ten, hurrah, hurrah
+    C x2           G7 x2
 The ants go marching ten by ten,
+    Am x2                   E x2
 The little one stops to shout "The End",
-And they all go marching down to the ground
-To get out of the rain.
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+BOOM! BOOM! BOOM!
 </pre>
 
 The guitar chord above is derived from the following tutorial:
@@ -176,101 +256,173 @@ Full version:
 <pre>
 🐜 1
 
+    Am x4                        C x4
 The ants go marching one by one, hoorah, hoorah
+    Am x4                        C x4
 The ants go marching one by one, hoorah, hoorah
+    C x2             G7 x2
 The ants go marching one by one
+    Am x2             E x2
 The little one eats a juicy plum
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 2
 
+    Am x4                        C x4
 The ants go marching two by two, hoorah, hoorah
+    Am x4                        C x4
 The ants go marching two by two, hoorah, hoorah
+    C x2             G7 x2
 The ants go marching two by two
+    Am x2                 E x2
 The little one drinks some apple juice
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 3
 
+    Am x4                          C x4
 The ants go marching three by three, hoorah, hoorah
+    Am x4                          C x4
 The ants go marching three by three, hoorah, hoorah
+    C x2               G7 x2
 The ants go marching three by three
+    Am x2                 E x2
 The little one drinks a spot of tea
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 4
 
+    Am x4                        C x4
 The ants go marching four by four, hoorah, hoorah
+    Am x4                        C x4
 The ants go marching four by four, hoorah, hoorah
+    C x2             G7 x2
 The ants go marching four by four
+    Am x2              E x2
 The little one eats an ear of corn
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 5
 
+    Am x4                        C x4
 The ants go marching five by five, hoorah, hoorah
+    Am x4                        C x4
 The ants go marching five by five, hoorah, hoorah
+    C x2             G7 x2
 The ants go marching five by five
+    Am x2              E x2
 The little one eats a pumpkin pie
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 6
 
+    Am x4                      C x4
 The ants go marching six by six, hoorah, hoorah
+    Am x4                      C x4
 The ants go marching six by six, hoorah, hoorah
+    C x2           G7 x2
 The ants go marching six by six
+    Am x2              E x2
 The little one eats potato chips
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 7
 
+    Am x4                              C x4
 The ants go marching seven by seven, hoorah, hoorah
+    Am x4                              C x4
 The ants go marching seven by seven, hoorah, hoorah
+    C x2                   G7 x2
 The ants go marching seven by seven
+    Am x2              E x2
 The little one eats a watermelon
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 8
 
+    Am x4                          C x4
 The ants go marching eight by eight, hoorah, hoorah
+    Am x4                          C x4
 The ants go marching eight by eight, hoorah, hoorah
+    C x2               G7 x2
 The ants go marching eight by eight
+    Am x2              E x2
 The little one eats a chocolate cake
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 9
 
+    Am x4                        C x4
 The ants go marching nine by nine, hoorah, hoorah
+    Am x4                        C x4
 The ants go marching nine by nine, hoorah, hoorah
+    C x2             G7 x2
 The ants go marching nine by nine
+    Am x2             E x2
 The little one eats a sour lime
-And they all go marching down to the ground
-To get out of the rain
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
 Yum, yum, yum!
 
 🐜 10
 
+    Am x4                      C x4
 The ants go marching ten by ten, hoorah, hoorah
+    Am x4                      C x4
 The ants go marching ten by ten, hoorah, hoorah
+    C x2           G7 x2
 The ants go marching ten by ten
-The little one stops to shout:
-"I'm full!!"
+    Am x2                    E x2
+The little one stops to shout "I'm full!!"
+         C   G7 Am E     Am x2
+And they all go marching down,
+       Am x2      Am x2           Am x2
+To the ground, to get out, of the rain.
+E    F#   G# (as single notes)
+Yum, yum, yum!
 </pre>
 
 Lyrics from [Super Simple Songs](https://supersimple.com/song/ants-go-marching-2/?sl=English).
@@ -311,83 +463,155 @@ Buzz, buzz, buzz.
 Full version:
 
 <pre>
+    Am x4                       C x4
 The bees go buzzing one by one. Hoorah! Hoorah!
+    Am x4                       C x4
 The bees go buzzing one by one. Hoorah! Hoorah!
+    C x2                G7 x2
 The bees go buzzing one by one
+    Am x2                   E x2
 The little one stops to have some fun
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                       C x4
 The bees go buzzing two by two. Hoorah! Hoorah!
+    Am x4                       C x4
 The bees go buzzing two by two. Hoorah! Hoorah!
+    C x2                G7 x2
 The bees go buzzing two by two
+    Am x2               E x2
 The little one stops to sing a tune
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                         C x4
 The bees go buzzing three by three. Hoorah! Hoorah!
+    Am x4                         C x4
 The bees go buzzing three by three. Hoorah! Hoorah!
+    C x2                  G7 x2
 The bees go buzzing three by three
+    Am x2                 E x2
 The little one stops to scratch her knee
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                       C x4
 The bees go buzzing four by four. Hoorah! Hoorah!
+    Am x4                       C x4
 The bees go buzzing four by four. Hoorah! Hoorah!
+    C x2                G7 x2
 The bees go buzzing four by four
+    Am x2                E x2
 The little one stops to sing once more
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                       C x4
 The bees go buzzing five by five. Hoorah! Hoorah!
+    Am x4                       C x4
 The bees go buzzing five by five. Hoorah! Hoorah!
+    C x2                G7 x2
 The bees go buzzing five by five
+    Am x2               E x2
 The little one stops to exercise
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                     C x4
 The bees go buzzing six by six. Hoorah! Hoorah!
+    Am x4                     C x4
 The bees go buzzing six by six. Hoorah! Hoorah!
+    C x2              G7 x2
 The bees go buzzing six by six
+    Am x2               E x2
 The little one stops to make a wish
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                             C x4
 The bees go buzzing seven by seven. Hoorah! Hoorah!
+    Am x4                             C x4
 The bees go buzzing seven by seven. Hoorah! Hoorah!
+    C x2                      G7 x2
 The bees go buzzing seven by seven
+    Am x2                  E x2
 The little one stops to ask directions
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                         C x4
 The bees go buzzing eight by eight. Hoorah! Hoorah!
+    Am x4                         C x4
 The bees go buzzing eight by eight. Hoorah! Hoorah!
+    C x2                  G7 x2
 The bees go buzzing eight by eight
+    Am x2              E x2
 The little one stops to pollinate
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                       C x4
 The bees go buzzing nine by nine. Hoorah! Hoorah!
+    Am x4                       C x4
 The bees go buzzing nine by nine. Hoorah! Hoorah!
+    C x2                G7 x2
 The bees go buzzing nine by nine
+    Am x2                       E x2
 The little one stops to starts to fall behind
-And they all go flying high in the sky
-To go back to their hive
-Buzz, buzz, buzz
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 
+    Am x4                     C x4
 The bees go buzzing ten by ten. Hoorah! Hoorah!
+    Am x4                     C x4
 The bees go buzzing ten by ten. Hoorah! Hoorah!
+    C x2              G7 x2
 The bees go buzzing ten by ten
-The little one stops to shout
-The end
+    Am x2                    E x2
+The little one stops to shout "The End!"
+         C   G7 Am E   Am x2        Am x2
+And they all go flying high, in the sky,
+      Am x2          Am x2
+To go back, to their hive.
+E    F#   G# (as single notes)
+Buzz, buzz, buzz.
 </pre>
 
 <div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/bWUgZm_AE64" frameborder="0" allowfullscreen></iframe></div>
