@@ -33,9 +33,11 @@ const { Content } = await render(post);
       </article>
       <aside class="lg:w-64 shrink-0 space-y-8">
         <AuthorSidebar />
-        <div class="sticky top-6">
-          <TableOfContents client:visible />
-        </div>
+        {post.data.toc && (
+          <div class="sticky top-6">
+            <TableOfContents client:load />
+          </div>
+        )}
       </aside>
     </div>
   </div>
