@@ -162,4 +162,4 @@ Old MacDonald had a farm
 A          E7     E   A      A   E A
 Eeeeee i , eeeeee i , ohhhhh     ! !
 </pre>
-<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/gnoz6NPV1uE" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-embed"><iframe width="560" height="315" src="https://www.youtube.com/embed/_6HzoUcx3eo" frameborder="0" allowfullscreen></iframe></div>
