@@ -23,14 +23,14 @@ Since AI understands websites semantically, what if I just let an AI agent log i
 
 That’s OpenVault.
 
-Very simple CLI that uses an LLM to log in to all my bank accounts periodically, keep track of all my accounts and their balances over time.
+A very simple CLI that uses an LLM to log in to all my bank accounts periodically, and keeps track of all my accounts and their balances over time.
 
-- Works with many banks out of the box. Tested with Schwab, TD, Wealthsimple, Questrade, and Tangerine. In theory, as long as there is a website, the agent will know how to navigate and download information that we need. It will automatically update its memory as the banking website evolves (self learning and self improvement).
-- Fully automated. The only remaining blocker was two-factor authentication. But after I built https://github.com/yzhong52/auto-relay, AI agent can have access to all my two-factor authentication codes. 
+It works with many banks out of the box. I've tested with Schwab, TD, Wealthsimple, Questrade, and Tangerine. In theory, as long as there is a website, the agent will know how to navigate and download information that we need. It will automatically update its memory as the banking website evolves (self-learning and self-improvement).
+It is fully automated. The only theoretical blocker was two-factor authentication. But after I built [auto-relay](https://github.com/yzhong52/auto-relay), AI agent can have access to all my two-factor authentication codes.
 
 It is only a CLI now. But I think it opens doors moving forward.
 
-- We can create a pretty yet customized UI on top.
+- We can easily create a pretty yet customized UI on top.
 - Since we have all the financial data across all different institutions, we can have a full understanding of the assets and make better-informed decisions on asset allocation, budgeting, etc.
 - Eventually, agents that can take action—moving money, managing payments, even trading. (But this probably needs to wait for stronger, more reliable models.)
 
