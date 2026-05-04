@@ -40,15 +40,15 @@ Chords are simplied from https://tabs.ultimate-guitar.com/tab/misc-children/frer
 ## French — Frère Jacques
 
 <pre>
-G       G         G       G
+G  D  G      G  D  G
 Frère Jacques, Frère Jacques,
-G       D     G       D
+G  C   D     G  C   D
 Dormez-vous? Dormez-vous?
-D7                G
+D7         G
 Sonnez les matines!
-D7          G
+D7         G
 Sonnez les matines!
-C         G     C         G
+G    D    G    C    D    G
 Din, din, don. Din, din, don.
 </pre>
 
