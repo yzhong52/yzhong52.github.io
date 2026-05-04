@@ -1,6 +1,6 @@
 ---
 title: "Hello Everybody"
-excerpt: "Traditional"
+excerpt: ""
 tags: ["Anya's Favorites", "Todo"]
 ---
 

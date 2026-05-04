@@ -1,6 +1,6 @@
 ---
 title: "Row Row Row Your Boat"
-excerpt: "Traditional"
+excerpt: ""
 classes: wide
 tags:
   - Anya's Favorites

@@ -1,7 +1,7 @@
 ---
 title: "Silent Night"
 classes: wide
-excerpt: "1818"
+excerpt: "Franz Xaver Gruber & Joseph Mohr (1818)"
 tags: ["Yz's Favourite"]
 ---
 

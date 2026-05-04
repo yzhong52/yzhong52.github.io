@@ -13,7 +13,11 @@ for (const song of songs) {
   }
 }
 
-const sortedTags = [...tagMap.keys()].sort();
+const sortedTags = [...tagMap.keys()].sort((a, b) => {
+  if (a === 'Todo') return 1;
+  if (b === 'Todo') return -1;
+  return a.localeCompare(b);
+});
 ---
 
 <Base title="Guitar Tags" description="Guitar songs grouped by tag.">
@@ -53,6 +57,12 @@ const sortedTags = [...tagMap.keys()].sort();
               >
                 {song.data.title}
               </a>
+              {song.data.excerpt && (
+                <span class="text-sm text-slate-400 ml-2">{song.data.excerpt}</span>
+              )}
+              {song.data.tags.includes('Todo') && (
+                <span class="ml-2 text-xs px-1.5 py-0.5 bg-amber-100 text-amber-600 rounded">todo</span>
+              )}
             </li>
           ))}
         </ul>

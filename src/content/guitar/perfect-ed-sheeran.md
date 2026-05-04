@@ -1,7 +1,7 @@
 ---
 title: "Perfect"
 excerpt: "Ed Sheeran, 2017"
-tags: ["Todo"]
+tags: ["Todo", "Shelly's Favourite"]
 ---
 
 Capo 1
