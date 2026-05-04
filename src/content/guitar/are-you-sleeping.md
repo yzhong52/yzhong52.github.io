@@ -1,7 +1,8 @@
 ---
 title: "Are You Sleeping (Brother John)"
-excerpt: "Frère Jacques"
+excerpt: "Jean-Philippe Rameau"
 classes: wide
+toc: true
 tags:
   - Anya's Favorites
 ---
@@ -76,4 +77,3 @@ G   C  G   C
 </figure>
 
 Chords from [17jita.com](https://www.17jita.com/tab/img/1569.html).
-

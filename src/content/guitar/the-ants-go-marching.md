@@ -2,6 +2,7 @@
 title: "🐜 The Ants Go Marching / 🐝 The Bees Go Buzzing"
 excerpt: ""
 classes: wide
+toc: true
 tags:
   - Anya's Favorites
 ---
