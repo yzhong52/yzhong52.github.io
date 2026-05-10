@@ -19,25 +19,28 @@ A              D              E              E7
 </pre>
 
 <pre>
-A             D     A
+[Verse 1 🐔]
+Ax4           Dx2   Ax2
 Old MacDonald had a farm,
-A    E    A
+Ax2  Ex2  Ax4
 Ee i ee i oh!
-A                   D        A
+    Ax4             Dx2      Ax2
 And on that farm he had some chickens,
-A    E    A
+Ax2  Ex2  Ax4
 Ee i ee i oh!
  
-       D     D     A
+       Dx2         Ax2
 With a cluck-cluck here,
-      D     D     A
+      Dx2         Ax2
 And a cluck-cluck there
  
-A             D
+Ax2           Dx2
 Here a cluck, there a cluck,
-A            D     D
+Ax2          Dx2
 Everywhere a cluck-cluck
- 
+
+
+[Verse 2 🐄]
 A             D     A
 Old MacDonald had a farm
 A    E    A    A
@@ -61,7 +64,9 @@ A           D
 Here a Moo, there a Moo,
 A            D   D
 Everywhere a Moo-Moo
- 
+
+
+[Verse 3 🐕]
 A             D     A
 Old MacDonald had a farm
 A    E    A   A
@@ -84,7 +89,8 @@ A            D
 Here a Woof, there a Woof,
 A            D    D
 Everywhere a Woof-Woof
- 
+
+[Verse 4 🦆]
 A             D     A
 Old MacDonald had a farm
 A    E    A    A
@@ -108,7 +114,9 @@ A             D
 Here a Quack, there a Quack,
 A            D     D
 Everywhere a Quack-Quack
- 
+
+
+[Verse 5 🐑]
 A             D     A
 Old MacDonald had a farm
 A    E    A   A
@@ -132,7 +140,9 @@ A           D
 Here a Baa, there a Baa,
 A            D   D
 Everywhere a Baa-Baa
- 
+
+
+[Verse 6 🐷]
 A             D     A
 Old MacDonald had a farm
 A    E    A   A
@@ -157,6 +167,7 @@ Here an Oink, there an Oink,
 A             D    D
 Everywhere an Oink-Oink
  
+[Outro]
 A             D     A
 Old MacDonald had a farm
 A          E7     E   A      A   E A
